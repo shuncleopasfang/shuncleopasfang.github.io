@@ -23,25 +23,17 @@
   <meta name="description" content="大数据体系和 SQL; 常见的查询优化器; 查询优化器的社区开源实践; SQL 相关的前沿趋势.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SQL-Optimizer-Parsing">
-<meta property="og:url" content="http://example.com/2022/10/26/SQL-Optimizer-Parsing/index.html">
+<meta property="og:url" content="http://example.com/2024/07/05/SQL-Optimizer-Parsing/index.html">
 <meta property="og:site_name" content="Juntaro Ogata&#39;s blog">
 <meta property="og:description" content="大数据体系和 SQL; 常见的查询优化器; 查询优化器的社区开源实践; SQL 相关的前沿趋势.">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f35f432396e1463dafc4cdb8ea9f8305~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9126f7d47e804e7f9fa35a21c77617dc~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0aa8def59ac9419c9aa11d39bb49a655~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/36468672798b4d6183328310ea7e7cb1~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66cd49ca171d45d5a332f6c770dd3d5b~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8c9a7537d744cad8175eb8b6afd9852~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42e20ec713f8432eb4f9784533856ef3~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
-<meta property="article:published_time" content="2022-10-26T12:58:28.000Z">
-<meta property="article:modified_time" content="2023-10-30T17:26:54.749Z">
+<meta property="article:published_time" content="2024-07-04T21:30:00.000Z">
+<meta property="article:modified_time" content="2024-07-05T05:31:07.407Z">
 <meta property="article:author" content="Juntaro Ogata">
-<meta property="article:tag" content="Optimizer">
+<meta property="article:tag" content="SQL">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f35f432396e1463dafc4cdb8ea9f8305~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp">
 
-<link rel="canonical" href="http://example.com/2022/10/26/SQL-Optimizer-Parsing/">
+<link rel="canonical" href="http://example.com/2024/07/05/SQL-Optimizer-Parsing/">
 
 
 <script id="page-configurations">
@@ -175,7 +167,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/10/26/SQL-Optimizer-Parsing/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/07/05/SQL-Optimizer-Parsing/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -197,23 +189,17 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2022-10-26 20:58:28" itemprop="dateCreated datePublished" datetime="2022-10-26T20:58:28+08:00">2022-10-26</time>
+              <time title="Created: 2024-07-05 05:30:00 / Modified: 13:31:07" itemprop="dateCreated datePublished" datetime="2024-07-05T05:30:00+08:00">2024-07-05</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-10-31 01:26:54" itemprop="dateModified" datetime="2023-10-31T01:26:54+08:00">2023-10-31</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/SQL/" itemprop="url" rel="index"><span itemprop="name">SQL</span></a>
+                  <a href="/categories/Computer-Science/" itemprop="url" rel="index"><span itemprop="name">Computer Science</span></a>
                 </span>
             </span>
 
@@ -350,10 +336,7 @@
 </li>
 </ul>
 <h1 id="Learning"><a href="#Learning" class="headerlink" title="Learning"></a>Learning</h1><h2 id="大数据体系和-SQL-1"><a href="#大数据体系和-SQL-1" class="headerlink" title="大数据体系和 SQL"></a>大数据体系和 SQL</h2><ul>
-<li><p>大数据体系全景图</p>
-</li>
-<li><p>为什么 SQL 如此流行？</p>
-</li>
+<li>为什么 SQL 如此流行？</li>
 </ul>
 <ol>
 <li>有 MySQL、Oracle 之类使用 SQL 作为交互语言的数据库</li>
@@ -370,7 +353,6 @@
 <li>SQL</li>
 </ul>
 <ol>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f35f432396e1463dafc4cdb8ea9f8305~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>Parser<ol>
 <li>把文本变成抽象语法树结构 (AST)</li>
 <li>涉及词法分析阶段 (拆分字符串, 提取关键字, 字符串, 数值等) 和语法分析阶段 (把词条按照定义的语法规则组装成抽象语法树结构)</li>
@@ -388,7 +370,6 @@
 <li>逻辑计划树</li>
 </ul>
 <ol>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9126f7d47e804e7f9fa35a21c77617dc~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>所谓逻辑计划树, 可以理解为<strong>逻辑地</strong>描述一个 SQL 如何一步步地执行查询和计算, 最终得到执行结果的一个分步骤地计划. 树中每个节点是是一个算子, 定义了对数据集合的计算操作 (过滤, 排序, 聚合, 连接), 边代表了数据的流向, 从孩子节点流向父节点. 之所以称它为逻辑的, 是因为算子定义的是逻辑的计算操作, 没有指定实际的算法, 比如对于逻辑的排序算子, 逻辑计划树里没有指定使用快排还是堆排</li>
 </ol>
 <ul>
@@ -407,7 +388,6 @@
 <li>物理执行计划</li>
 </ul>
 <ol>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0aa8def59ac9419c9aa11d39bb49a655~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>优化器的输出是一个分布式的物理执行计划</li>
 <li>分布式物理执行计划的目标是在单机 Plan 的基础上最小化数据移动和最大化本地 Scan, 生成 PlanFragment 树</li>
 <li>一个 PlanFragment 封装了在一台机器上对数据集的操作逻辑. 每个 PlanFragment 可以在每个 executor 节点生成 1 个或多个执行实例, 不同执行实例处理不同的数据集, 通过并发来提升查询性能</li>
@@ -422,7 +402,6 @@
 <h2 id="常见的查询优化器-1"><a href="#常见的查询优化器-1" class="headerlink" title="常见的查询优化器"></a>常见的查询优化器</h2><ul>
 <li><p>RBO</p>
 <ul>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/36468672798b4d6183328310ea7e7cb1~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>基于关系代数等价规则对逻辑计划进行变换</li>
 <li>实现上:<ul>
 <li>Pattern: 定义了特定结构的 Operator 子树 (结构)</li>
@@ -439,7 +418,6 @@
 </li>
 <li><p>CBO</p>
 <ul>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66cd49ca171d45d5a332f6c770dd3d5b~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>使用一个模型估算执行计划的代价, 选择代价最小的执行计划</li>
 <li>分而治之, 执行计划的代价等于所有算子的执行代价之和</li>
 <li>通过 RBO 得到 (所有) 可能的等价执行计划 (<strong>非原地替换</strong>)</li>
@@ -474,14 +452,10 @@
 <li><p>Volcano&#x2F;Cascade 框架</p>
 <ul>
 <li>Memo<ul>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e8c9a7537d744cad8175eb8b6afd9852~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
 <li>Cascades Optimizer 在搜索的过程中, 其搜索的空间是一个关系代数算子树所组成的森林, 而保存这个森林的数据结构就是 Memo. Memo 中两个最基本的概念就是 <strong>Expression Group (简称 Group)</strong> 以及 <strong>Group Expression</strong> (对应关系代数算子). 每个 Group 中保存的是逻辑等价的 Group Expression, 而 Group Expression 的子节点是由 Group 组成</li>
 </ul>
 </li>
-<li>Memo 本质是 AND&#x2F;OR Graph, 通过共享相同的子树减少内存开销, 记录搜索过的子树的最优执行计划 (winner)<ul>
-<li><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/42e20ec713f8432eb4f9784533856ef3~tplv-k3u1fbpfcp-zoom-in-crop-mark:3024:0:0:0.awebp" alt="img"></li>
-</ul>
-</li>
+<li>Memo 本质是 AND&#x2F;OR Graph, 通过共享相同的子树减少内存开销, 记录搜索过的子树的最优执行计划 (winner)</li>
 </ul>
 </li>
 <li><p>Branch-and-Bound Pruning</p>
@@ -517,31 +491,22 @@
 </ul>
 <h1 id="Review"><a href="#Review" class="headerlink" title="Review"></a>Review</h1><ul>
 <li><p>Q: Top-down 和 Bottom-up 的优化方式各有什么优缺点?</p>
-<p>A: </p>
 </li>
 <li><p>Q: Aggregate 和 Join 上面的 Filter 下推需要注意什么? 什么类型的谓词才能下推倒 Aggregate 和 Join 算子的下面?</p>
-<p>A: </p>
 </li>
 <li><p>Q: Runtime Filter 在什么情况下会造成性能回退?</p>
-<p>A: </p>
 </li>
 <li><p>Q: 了解并简要解释一下 Spark 系统中 Join Cardinality 的估算方式</p>
-<p>A: </p>
 </li>
 <li><p>Q: 了解并简要解释一下 Aggregate cardinality&#x2F;NDV 的估算方式</p>
-<p>A: </p>
 </li>
 <li><p>Q: 了解并简要解释一下直方图在统计信息估计中的作用</p>
-<p>A: </p>
 </li>
 <li><p>Q: RBO 里几种 pattern 匹配规则 (ARBITRARY, DEPTH_FIRST, TOP_DOWN, BOTTOM_UP) 有什么优缺点?</p>
-<p>A: </p>
 </li>
 <li><p>Q: RBO 直到没有可以匹配的 rule 才结束在 serving 场景 (在线服务场景) 可能会有什么问题? (考虑 rule 很多的情况) 除了这种结束方式, 还有什么其他结束方式?</p>
-<p>A: </p>
 </li>
 <li><p>Q: CBO 里 Branch-and-bound pruning 可以以 bottom-up 的方式进行吗?</p>
-<p>A:</p>
 </li>
 </ul>
 <h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><ul>
@@ -552,21 +517,15 @@
 <li>[高级] <a target="_blank" rel="noopener" href="https://15721.courses.cs.cmu.edu/spring2020/">15721.courses.cs.cmu.edu&#x2F;spring2020&#x2F;</a></li>
 </ol>
 <ul>
-<li><a target="_blank" rel="noopener" href="https://courses.cs.duke.edu/compsci516/cps216/spring03/papers/selinger-etal-1979.pdf">Access Path Selection in a Relational Database Management System</a></li>
-</ul>
-<ol>
-<li>在优化器框架上被引用次数最多的文献. 这篇文章介绍了 System R 的优化器, 其中关于 Join order enumeration, Selinger 开创了 dynamic programing based 的 bottom-up 的搜索空间算法的先河. 直至今日, 很多成熟的商业或开源数据库系统仍在沿用这套框架, 比如Oracle &#x2F; DB2 &#x2F; PostgreSQL …</li>
-</ol>
-<ul>
-<li>Volcano&#x2F;Cascades 框架相关论文</li>
+<li><p><a target="_blank" rel="noopener" href="https://courses.cs.duke.edu/compsci516/cps216/spring03/papers/selinger-etal-1979.pdf">Access Path Selection in a Relational Database Management System</a></p>
+</li>
+<li><p>Volcano&#x2F;Cascades 框架相关论文</p>
+</li>
 </ul>
 <ol>
 <li><a target="_blank" rel="noopener" href="http://www.seas.upenn.edu/~zives/03s/cis650/P209.PDF">The Volcano Optimizer Generator : Extensibility and Efficient Search</a></li>
 <li><a target="_blank" rel="noopener" href="https://www.cse.iitb.ac.in/infolab/Data/Courses/CS632/Papers/Cascades-graefe.pdf">The Cascades Framework for Query Optimization</a></li>
-<li><a target="_blank" rel="noopener" href="https://15721.courses.cs.cmu.edu/spring2018/papers/15-optimizer1/xu-columbia-thesis1998.pdf">Efficiency in the Columbia Database Query Optimizer</a><ul>
-<li>这篇 paper 从实现的角度详细讲解了 columbia optimizer 的设计和实现, 它完全参考了 volcano&#x2F;cascades 中的概念和 top-down 的搜索策略, 并做了一系列优化来改善 volcano&#x2F;cascades 的优化效率.</li>
-</ul>
-</li>
+<li><a target="_blank" rel="noopener" href="https://15721.courses.cs.cmu.edu/spring2018/papers/15-optimizer1/xu-columbia-thesis1998.pdf">Efficiency in the Columbia Database Query Optimizer</a></li>
 </ol>
 <ul>
 <li><p><a target="_blank" rel="noopener" href="https://arxiv.org/pdf/1802.10233">Apache Calcite: A Foundational Framework for Optimized Query Processing Over Heterogeneous Data Sources</a></p>
@@ -588,7 +547,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Optimizer/" rel="tag"># Optimizer</a>
+              <a href="/tags/SQL/" rel="tag"># SQL</a>
           </div>
 
         
