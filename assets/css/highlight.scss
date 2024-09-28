@@ -10,81 +10,81 @@
 @charset "utf-8";
 
 .highlight {
-  color: #383a42;
-  background: #fafafa;
+  color: #2a2c33; /* Darker default text color */
+  background: #ffffff; /* Lighter background color */
 
-  .w { color: #383a42; }
-  .err { color: #e45649; }
-  .x { color: #383a42; }
-  .k { color: #a626a4; }
-  .kc { color: #a626a4; }
-  .kd { color: #a626a4; }
-  .kn { color: #a626a4; }
-  .kp { color: #a626a4; }
-  .kr { color: #a626a4; }
-  .kt { color: #c18401; }
-  .n { color: #383a42; }
-  .na { color: #986801; }
-  .nb { color: #4078f2; }
-  .bp { color: #4078f2; }
-  .nc { color: #c18401; }
-  .no { color: #383a42; }
-  .nd { color: #4078f2; }
-  .ni { color: #383a42; }
-  .ne { color: #e45649; }
-  .nf { color: #4078f2; }
-  .py { color: #383a42; }
-  .nl { color: #383a42; }
-  .nn { color: #383a42; }
-  .nx { color: #383a42; }
-  .nt { color: #e45649; }
-  .nv { color: #e45649; }
-  .vc { color: #e45649; }
-  .vg { color: #e45649; }
-  .vi { color: #e45649; }
-  .l { color: #50a14f; }
-  .ld { color: #50a14f; }
-  .s { color: #50a14f; }
-  .sb { color: #50a14f; }
-  .sc { color: #50a14f; }
-  .sd { color: #50a14f; }
-  .s2 { color: #50a14f; }
-  .se { color: #50a14f; }
-  .sh { color: #50a14f; }
-  .si { color: #50a14f; }
-  .sx { color: #50a14f; }
-  .sr { color: #50a14f; }
-  .s1 { color: #50a14f; }
-  .ss { color: #0184bc; }
-  .m { color: #986801; }
-  .mf { color: #986801; }
-  .mh { color: #986801; }
-  .mi { color: #986801; }
-  .il { color: #986801; }
-  .mo { color: #986801; }
-  .mx { color: #986801; }
-  .mb { color: #986801; }
-  .o { color: #a626a4; }
-  .ow { color: #a626a4; }
-  .p { color: #383a42; }
-  .c { color: #a0a1a7; font-style: italic; }
-  .cm { color: #a0a1a7; font-style: italic; }
-  .cp { color: #a0a1a7; font-style: italic; }
-  .c1 { color: #a0a1a7; font-style: italic; }
-  .cs { color: #a0a1a7; font-style: italic; }
-  .g { color: #383a42; }
-  .gd { color: #e45649; }
+  .w { color: #2a2c33; }
+  .err { color: #d1344e; }
+  .x { color: #2a2c33; }
+  .k { color: #9013a6; }
+  .kc { color: #9013a6; }
+  .kd { color: #9013a6; }
+  .kn { color: #9013a6; }
+  .kp { color: #9013a6; }
+  .kr { color: #9013a6; }
+  .kt { color: #a87001; }
+  .n { color: #2a2c33; }
+  .na { color: #8a5e01; }
+  .nb { color: #2e67e0; }
+  .bp { color: #2e67e0; }
+  .nc { color: #a87001; }
+  .no { color: #2a2c33; }
+  .nd { color: #2e67e0; }
+  .ni { color: #2a2c33; }
+  .ne { color: #d1344e; }
+  .nf { color: #2e67e0; }
+  .py { color: #2a2c33; }
+  .nl { color: #2a2c33; }
+  .nn { color: #2a2c33; }
+  .nx { color: #2a2c33; }
+  .nt { color: #d1344e; }
+  .nv { color: #d1344e; }
+  .vc { color: #d1344e; }
+  .vg { color: #d1344e; }
+  .vi { color: #d1344e; }
+  .l { color: #3e8b3e; }
+  .ld { color: #3e8b3e; }
+  .s { color: #3e8b3e; }
+  .sb { color: #3e8b3e; }
+  .sc { color: #3e8b3e; }
+  .sd { color: #3e8b3e; }
+  .s2 { color: #3e8b3e; }
+  .se { color: #3e8b3e; }
+  .sh { color: #3e8b3e; }
+  .si { color: #3e8b3e; }
+  .sx { color: #3e8b3e; }
+  .sr { color: #3e8b3e; }
+  .s1 { color: #3e8b3e; }
+  .ss { color: #0172a8; }
+  .m { color: #8a5e01; }
+  .mf { color: #8a5e01; }
+  .mh { color: #8a5e01; }
+  .mi { color: #8a5e01; }
+  .il { color: #8a5e01; }
+  .mo { color: #8a5e01; }
+  .mx { color: #8a5e01; }
+  .mb { color: #8a5e01; }
+  .o { color: #9013a6; }
+  .ow { color: #9013a6; }
+  .p { color: #2a2c33; }
+  .c { color: #7d7e83; font-style: italic; }
+  .cm { color: #7d7e83; font-style: italic; }
+  .cp { color: #7d7e83; font-style: italic; }
+  .c1 { color: #7d7e83; font-style: italic; }
+  .cs { color: #7d7e83; font-style: italic; }
+  .g { color: #2a2c33; }
+  .gd { color: #d1344e; }
   .ge { font-style: italic; }
-  .gr { color: #e45649; }
-  .gh { color: #4078f2; font-weight: bold; }
-  .gi { color: #50a14f; }
-  .go { color: #383a42; }
-  .gp { color: #4078f2; font-weight: bold; }
+  .gr { color: #d1344e; }
+  .gh { color: #2e67e0; font-weight: bold; }
+  .gi { color: #3e8b3e; }
+  .go { color: #2a2c33; }
+  .gp { color: #2e67e0; font-weight: bold; }
   .gs { font-weight: bold; }
-  .gu { color: #4078f2; font-weight: bold; }
-  .gt { color: #e45649; }
-  .gl { color: #383a42; }
-  .cd { color: #a0a1a7; font-style: italic; }
-  .kv { color: #a626a4; }
-  .pi { color: #383a42; }
+  .gu { color: #2e67e0; font-weight: bold; }
+  .gt { color: #d1344e; }
+  .gl { color: #2a2c33; }
+  .cd { color: #7d7e83; font-style: italic; }
+  .kv { color: #9013a6; }
+  .pi { color: #2a2c33; }
 }
