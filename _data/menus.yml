@@ -4,9 +4,9 @@
 - default: menu_category
   url: 'categories'
 
-- title: 'Jekyll Paper for Github'
+- title: 'Learning'
   absoluteUrl: true
-  url: 'https://github.com/ghosind/Jekyll-Paper-Github'
+  url: 'https://docs.google.com/document/d/e/2PACX-1vSdfrOQuGjbFRxE_YWianfG2KOldzxkO8pOfk-cDgVOHnxz--g4OfikmNLpS4r8PThNGBYUrd8x6FgW/pub'
 
 - default: menu_about
   url: 'about'
