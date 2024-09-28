@@ -34,8 +34,8 @@ permalink: /articles/
     }
     
     .article-image-container {
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
       flex-shrink: 0;
     }
 
