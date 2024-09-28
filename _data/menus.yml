@@ -1,19 +1,17 @@
-- default: menu_blog
-  url: ''
+- title: "Blog"
+  url: "/"
 
-- default: menu_category
-  url: 'categories'
+- title: "Categories"
+  url: "/categories"
   
-- default: menu_tag
-  url: 'tags'
+- title: "Tags"
+  url: "/tags"
 
-- title: 'Articles'
-  absoluteUrl: false
-  url: 'articles'
+- title: "Articles"
+  url: "/articles"
 
-- title: 'Learning'
-  absoluteUrl: false
-  url: 'learning'
+- title: "Learning"
+  url: "/learning"
 
-- default: menu_about
-  url: 'about'
+- title: "About"
+  url: "/about"

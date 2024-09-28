@@ -59,7 +59,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2023/11/taiwan-travelogue.html" class="article-title">從天黑走到天亮——方順的台灣日記</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/ko_wen-je_&_juntaro_ogata.jpeg" alt="ko_wen-je_&_juntaro_ogata" class="article-image">
+      <img src="/assets/images/ko_wen-je_&_juntaro_ogata.jpeg" alt="ko_wen-je_&_juntaro_ogata" class="article-image">
     </div>
   </div>
   
@@ -69,7 +69,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2023/09/aid-education-record-2.html" class="article-title">第二年支教始末记</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/aid_education_2.jpg" alt="aid_education_2" class="article-image">
+      <img src="/assets/images/aid_education_2.jpg" alt="aid_education_2" class="article-image">
     </div>
   </div>
 
@@ -79,7 +79,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2023/05/huangshan-tour.html" class="article-title">黄山游日志</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/huangshan_tour.jpg" alt="huangshan_tour" class="article-image">
+      <img src="/assets/images/huangshan_tour.jpg" alt="huangshan_tour" class="article-image">
     </div>
   </div>
 
@@ -89,7 +89,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2022/06/aid-education-record.html" class="article-title">支教记闻</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/aid_education_1.jpg" alt="aid_education_1" class="article-image">
+      <img src="/assets/images/aid_education_1.jpg" alt="aid_education_1" class="article-image">
     </div>
   </div>
 
@@ -99,7 +99,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2022/01/50km-Trailwalker-of-Hefei-2022.html" class="article-title">2022合肥50km百里毅行记闻</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/50km_trailwalker.jpg" alt="50km_trailwalker" class="article-image">
+      <img src="/assets/images/50km_trailwalker.jpg" alt="50km_trailwalker" class="article-image">
     </div>
   </div>
 
@@ -109,7 +109,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2021/12/hefei-marathon-2021.html" class="article-title">2021合肥马拉松半马心路历程</a>
     </div>
     <div class="article-image-container">
-      <img src="./assets/images/hefei_marathon_2021.jpeg" alt="hefei_marathon_2021" class="article-image">
+      <img src="/assets/images/hefei_marathon_2021.jpeg" alt="hefei_marathon_2021" class="article-image">
     </div>
   </div>
 </div>
