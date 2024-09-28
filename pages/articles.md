@@ -12,22 +12,17 @@ permalink: /articles/
     .article-item {
         display: flex;
         justify-content: space-between;
-        align-items: center; /* This aligns items vertically */
+        align-items: center;
         margin-bottom: 10px;
         padding: 5px 0;
-        min-height: 70px; /* Ensure minimum height for proper centering */
     }
     .article-info {
         flex-grow: 1;
         padding-right: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* This centers the content vertically */
     }
     .article-date {
         font-size: 0.9em;
         color: #666;
-        margin-bottom: 2px;
     }
     .article-title {
         font-size: 1.0em;

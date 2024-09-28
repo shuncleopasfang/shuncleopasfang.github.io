@@ -1,5 +1,5 @@
-- default: menu_blog
-  url: ''
+- title: "Blog"
+  url:   ""
 
 - default: menu_category
   url: 'categories'
