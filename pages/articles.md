@@ -12,13 +12,17 @@ permalink: /articles/
     .article-item {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: center; /* This aligns items vertically */
         margin-bottom: 10px;
         padding: 5px 0;
+        min-height: 70px; /* Ensure minimum height for proper centering */
     }
     .article-info {
         flex-grow: 1;
         padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* This centers the content vertically */
     }
     .article-date {
         font-size: 0.9em;
@@ -55,7 +59,7 @@ permalink: /articles/
       <a href="https://shuncleopasfang.blogspot.com/2023/11/taiwan-travelogue.html" class="article-title">從天黑走到天亮——方順的台灣日記</a>
     </div>
     <div class="article-image-container">
-      <img src="/assets/images/ko*wen-je*&_juntaro_ogata.jpeg" alt="ko*wen-je*&_juntaro_ogata" class="article-image">
+      <img src="/assets/images/ko_wen-je_&_juntaro_ogata.jpeg" alt="ko_wen-je_&_juntaro_ogata" class="article-image">
     </div>
   </div>
   
