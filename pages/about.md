@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## [Homepage](https://sites.google.com/view/shuncleopasfang/) <span style="font-size: inherit;">🔗</span>
 
-<br><br><br>
+<br>
 
 ## Education
 
@@ -21,13 +21,13 @@ permalink: /about/
   
   Undergraduate, September 2021 - July 2025
 
-<br><br><br>
+<br>
 
 ## Political Engagements
 
-* Private information, made public after immigration.
+* Private information.
 
-<br><br><br>
+<br>
 
 ## Activities and Societies
 
