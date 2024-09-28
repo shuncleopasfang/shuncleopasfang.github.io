@@ -10,81 +10,395 @@
 @charset "utf-8";
 
 .highlight {
-  color: #1a1a1a; /* Even darker default text color */
-  background: #ffffff; /* Pure white background */
+  background-color: #ffffff;
 
-  .w { color: #1a1a1a; }
-  .err { color: #c00; }
-  .x { color: #1a1a1a; }
-  .k { color: #7a0f8c; }
-  .kc { color: #7a0f8c; }
-  .kd { color: #7a0f8c; }
-  .kn { color: #7a0f8c; }
-  .kp { color: #7a0f8c; }
-  .kr { color: #7a0f8c; }
-  .kt { color: #906000; }
-  .n { color: #1a1a1a; }
-  .na { color: #794f00; }
-  .nb { color: #1e57d0; }
-  .bp { color: #1e57d0; }
-  .nc { color: #906000; }
-  .no { color: #1a1a1a; }
-  .nd { color: #1e57d0; }
-  .ni { color: #1a1a1a; }
-  .ne { color: #c00; }
-  .nf { color: #1e57d0; }
-  .py { color: #1a1a1a; }
-  .nl { color: #1a1a1a; }
-  .nn { color: #1a1a1a; }
-  .nx { color: #1a1a1a; }
-  .nt { color: #c00; }
-  .nv { color: #c00; }
-  .vc { color: #c00; }
-  .vg { color: #c00; }
-  .vi { color: #c00; }
-  .l { color: #2e7b2e; }
-  .ld { color: #2e7b2e; }
-  .s { color: #2e7b2e; }
-  .sb { color: #2e7b2e; }
-  .sc { color: #2e7b2e; }
-  .sd { color: #2e7b2e; }
-  .s2 { color: #2e7b2e; }
-  .se { color: #2e7b2e; }
-  .sh { color: #2e7b2e; }
-  .si { color: #2e7b2e; }
-  .sx { color: #2e7b2e; }
-  .sr { color: #2e7b2e; }
-  .s1 { color: #2e7b2e; }
-  .ss { color: #016298; }
-  .m { color: #794f00; }
-  .mf { color: #794f00; }
-  .mh { color: #794f00; }
-  .mi { color: #794f00; }
-  .il { color: #794f00; }
-  .mo { color: #794f00; }
-  .mx { color: #794f00; }
-  .mb { color: #794f00; }
-  .o { color: #7a0f8c; }
-  .ow { color: #7a0f8c; }
-  .p { color: #1a1a1a; }
-  .c { color: #5c5c5c; font-style: italic; }
-  .cm { color: #5c5c5c; font-style: italic; }
-  .cp { color: #5c5c5c; font-style: italic; }
-  .c1 { color: #5c5c5c; font-style: italic; }
-  .cs { color: #5c5c5c; font-style: italic; }
-  .g { color: #1a1a1a; }
-  .gd { color: #c00; }
-  .ge { font-style: italic; }
-  .gr { color: #c00; }
-  .gh { color: #1e57d0; font-weight: bold; }
-  .gi { color: #2e7b2e; }
-  .go { color: #1a1a1a; }
-  .gp { color: #1e57d0; font-weight: bold; }
-  .gs { font-weight: bold; }
-  .gu { color: #1e57d0; font-weight: bold; }
-  .gt { color: #c00; }
-  .gl { color: #1a1a1a; }
-  .cd { color: #5c5c5c; font-style: italic; }
-  .kv { color: #7a0f8c; }
-  .pi { color: #1a1a1a; }
+  table {
+    td {
+      padding: 5px;
+    }
+
+    pre {
+      margin: 0;
+    }
+  }
+
+  // Specially highlighted whitespace
+  .w {
+    color: #a0a1a7;
+  }
+
+  // Lexer errors
+  .err {
+    color: #ffffff;
+    background-color: #e45649;
+  }
+
+  // Token for data not matched by a parser (e.g. HTML markup in PHP code)
+  .x {
+    color: #383a42;
+  }
+
+  // Any keyword
+  .k {
+    color: #a626a4;
+  }
+
+  // Keywords that are constants
+  .kc {
+    color: #a626a4;
+  }
+
+  // Keywords used for variable declaration (e.g. var in javascript)
+  .kd {
+    color: #a626a4;
+  }
+
+  // Keywords used for namespace declarations
+  .kn {
+    color: #a626a4;
+  }
+
+  // Keywords that aren't really keywords
+  .kp {
+    color: #a626a4;
+  }
+
+  // Keywords which are reserved (such as end in Ruby)
+  .kr {
+    color: #a626a4;
+  }
+
+  // Keywords wich refer to a type id (such as int in C)
+  .kt {
+    color: #c18401;
+  }
+
+  //Variable/function names
+  .n {
+    color: #383a42;
+  }
+
+  // Attributes (in HTML for instance)
+  .na {
+    color: #986801;
+  }
+
+  // Builtin names which are available in the global namespace
+  .nb {
+    color: #4078f2;
+  }
+
+  // Builtin names that are implicit (such as self in Ruby)
+  .bp {
+    color: #4078f2;
+  }
+
+  // For class declaration
+  .nc {
+    color: #c18401;
+  }
+
+  // For constants
+  .no {
+    color: #986801;
+  }
+
+  // For decorators in languages such as Python or Java
+  .nd {
+    color: #4078f2;
+  }
+
+  // Token for entitites such as &nbsp; in HTML
+  .ni {
+    color: #986801;
+  }
+
+  // Exceptions and errors (e.g. ArgumentError in Ruby)
+  .ne {
+    color: #e45649;
+  }
+
+  // Function names
+  .nf {
+    color: #4078f2;
+  }
+
+  // Token for properties
+  .py {
+    color: #383a42;
+  }
+
+  // For label names
+  .nl {
+    color: #986801;
+  }
+
+  // Token for namespaces
+  .nn {
+    color: #c18401;
+  }
+
+  // For other names
+  .nx {
+    color: #383a42;
+  }
+
+  // Tag mainly for markup such as XML or HTML
+  .nt {
+    color: #e45649;
+  }
+
+  // Token for variables
+  .nv {
+    color: #e45649;
+  }
+
+  // Token for class variables (e.g. @@var in Ruby)
+  .vc {
+    color: #e45649;
+  }
+
+  // For global variables (such as $LOAD_PATH in Ruby)
+  .vg {
+    color: #e45649;
+  }
+
+  // Token for instance variables (such as @var in Ruby)
+  .vi {
+    color: #e45649;
+  }
+
+  // Any literal (if not further defined)
+  .l {
+    color: #50a14f;
+  }
+
+  // Date literals
+  .ld {
+    color: #50a14f;
+  }
+
+  // String literals
+  .s {
+    color: #50a14f;
+  }
+
+  // String enclosed in backticks
+  .sb {
+    color: #50a14f;
+  }
+
+  // Token type for single characters
+  .sc {
+    color: #50a14f;
+  }
+
+  // Documentation strings (such as in Python)
+  .sd {
+    color: #50a14f;
+  }
+
+  // Double quoted strings
+  .s2 {
+    color: #50a14f;
+  }
+
+  // Escaped sequences in strings
+  .se {
+    color: #50a14f;
+  }
+
+  // For "heredoc" strings (e.g. in Ruby)
+  .sh {
+    color: #50a14f;
+  }
+
+  // For interpoled part in strings (e.g. in Ruby)
+  .si {
+    color: #50a14f;
+  }
+
+  // Token type for any other strings (for example %q{foo} string constructs in Ruby)
+  .sx {
+    color: #50a14f;
+  }
+
+  // Regular expressions literals
+  .sr {
+    color: #50a14f;
+  }
+
+  // Single quoted strings
+  .s1 {
+    color: #50a14f;
+  }
+
+  // Symbols (such as :foo in Ruby)
+  .ss {
+    color: #50a14f;
+  }
+
+  // Any number literal (if not further defined)
+  .m {
+    color: #986801;
+  }
+
+  // Float numbers
+  .mf {
+    color: #986801;
+  }
+
+  // Hexadecimal numbers
+  .mh {
+    color: #986801;
+  }
+
+  // Integer literals
+  .mi {
+    color: #986801;
+  }
+
+  // Long interger literals
+  .il {
+    color: #986801;
+  }
+
+  // Octal literals
+  .mo {
+    color: #986801;
+  }
+
+  // Hexadecimal literals
+  .mx {
+    color: #986801;
+  }
+
+  // Binary literals
+  .mb {
+    color: #986801;
+  }
+
+  // Operators (commonly +, -, /, *)
+  .o {
+    color: #a626a4;
+  }
+
+  // Word operators (e.g. and)
+  .ow {
+    color: #a626a4;
+  }
+
+  // Punctuation which is not an operator
+  .p {
+    color: #383a42;
+  }
+
+  // Single ligne comments
+  .c {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Mutliline comments
+  .cm {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Preprocessor comments such as <% %> in ERb
+  .cp {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Comments that end at the end of the line
+  .c1 {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Special data in comments such as @license in Javadoc
+  .cs {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Unstyled token
+  .g {
+    color: #383a42;
+  }
+
+  // Token value as deleted
+  .gd {
+    color: #e45649;
+  }
+
+  // Token value as emphasized
+  .ge {
+    font-style: italic;
+  }
+
+  // Token value as an error message
+  .gr {
+    color: #e45649;
+  }
+
+  // Token value as a headline
+  .gh {
+    color: #4078f2;
+    font-weight: bold;
+  }
+
+  // Token value as inserted
+  .gi {
+    color: #50a14f;
+  }
+
+  // Marked as a program output
+  .go {
+    color: #383a42;
+  }
+
+  // Marked as a command prompt
+  .gp {
+    color: #4078f2;
+    font-weight: bold;
+  }
+
+  // Mark the token value as bold (for rst lexer)
+  .gs {
+    font-weight: bold;
+  }
+
+  // Marked as a subheadline
+  .gu {
+    color: #4078f2;
+    font-weight: bold;
+  }
+
+  // Mark the token as a part of an error traceback
+  .gt {
+    color: #e45649;
+  }
+
+  // Line numbers
+  .gl {
+    color: #a0a1a7;
+  }
+
+  // Documentation comments
+  .cd {
+    color: #a0a1a7;
+    font-style: italic;
+  }
+
+  // Keywords used for variable
+  .kv {
+    color: #a626a4;
+  }
+
+  // Punctuation which is an indicator
+  .pi {
+    color: #383a42;
+  }
 }
