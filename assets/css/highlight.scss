@@ -10,58 +10,81 @@
 @charset "utf-8";
 
 .highlight {
-  /* 設置背景色為接近 VS Code 的深色主題 */
-  background-color: #1e1e1e;
-  color: #d4d4d4;
+  color: #383a42;
+  background: #fafafa;
 
-  table {
-    td {
-      padding: 5px;
-    }
-
-    pre {
-      margin: 0;
-    }
-  }
-
-  .w { color: #d4d4d4; }  /* 空白 */
-  .err { color: #f44747; background-color: #1e1e1e; }  /* 錯誤 */
-  .x { color: #d4d4d4; }  /* 其他 */
-
-  /* 關鍵字 */
-  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #569cd6; }
-
-  /* 名稱 */
-  .n, .na, .nb, .bp, .nc, .no, .nd, .ni, .ne, .nf, .py, .nl, .nn, .nx, .nt {
-    color: #9cdcfe;
-  }
-
-  /* 變量 */
-  .nv, .vc, .vg, .vi { color: #9cdcfe; }
-
-  /* 字符串 */
-  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss {
-    color: #ce9178;
-  }
-
-  /* 數字 */
-  .m, .mf, .mh, .mi, .il, .mo, .mx, .mb { color: #b5cea8; }
-
-  /* 操作符 */
-  .o, .ow { color: #d4d4d4; }
-
-  /* 標點 */
-  .p { color: #d4d4d4; }
-
-  /* 註釋 */
-  .c, .cm, .cp, .c1, .cs, .cd { color: #6a9955; }
-
-  /* 其他 */
-  .g, .gd, .ge, .gr, .gh, .gi, .go, .gp, .gs, .gu, .gt { color: #d4d4d4; }
-
-  /* 行號 */
-  .gl { color: #5a5a5a; }
-
-  /* 文檔字符串 */
-  .sd { color: #6a9955; }
+  .w { color: #383a42; }
+  .err { color: #e45649; }
+  .x { color: #383a42; }
+  .k { color: #a626a4; }
+  .kc { color: #a626a4; }
+  .kd { color: #a626a4; }
+  .kn { color: #a626a4; }
+  .kp { color: #a626a4; }
+  .kr { color: #a626a4; }
+  .kt { color: #c18401; }
+  .n { color: #383a42; }
+  .na { color: #986801; }
+  .nb { color: #4078f2; }
+  .bp { color: #4078f2; }
+  .nc { color: #c18401; }
+  .no { color: #383a42; }
+  .nd { color: #4078f2; }
+  .ni { color: #383a42; }
+  .ne { color: #e45649; }
+  .nf { color: #4078f2; }
+  .py { color: #383a42; }
+  .nl { color: #383a42; }
+  .nn { color: #383a42; }
+  .nx { color: #383a42; }
+  .nt { color: #e45649; }
+  .nv { color: #e45649; }
+  .vc { color: #e45649; }
+  .vg { color: #e45649; }
+  .vi { color: #e45649; }
+  .l { color: #50a14f; }
+  .ld { color: #50a14f; }
+  .s { color: #50a14f; }
+  .sb { color: #50a14f; }
+  .sc { color: #50a14f; }
+  .sd { color: #50a14f; }
+  .s2 { color: #50a14f; }
+  .se { color: #50a14f; }
+  .sh { color: #50a14f; }
+  .si { color: #50a14f; }
+  .sx { color: #50a14f; }
+  .sr { color: #50a14f; }
+  .s1 { color: #50a14f; }
+  .ss { color: #0184bc; }
+  .m { color: #986801; }
+  .mf { color: #986801; }
+  .mh { color: #986801; }
+  .mi { color: #986801; }
+  .il { color: #986801; }
+  .mo { color: #986801; }
+  .mx { color: #986801; }
+  .mb { color: #986801; }
+  .o { color: #a626a4; }
+  .ow { color: #a626a4; }
+  .p { color: #383a42; }
+  .c { color: #a0a1a7; font-style: italic; }
+  .cm { color: #a0a1a7; font-style: italic; }
+  .cp { color: #a0a1a7; font-style: italic; }
+  .c1 { color: #a0a1a7; font-style: italic; }
+  .cs { color: #a0a1a7; font-style: italic; }
+  .g { color: #383a42; }
+  .gd { color: #e45649; }
+  .ge { font-style: italic; }
+  .gr { color: #e45649; }
+  .gh { color: #4078f2; font-weight: bold; }
+  .gi { color: #50a14f; }
+  .go { color: #383a42; }
+  .gp { color: #4078f2; font-weight: bold; }
+  .gs { font-weight: bold; }
+  .gu { color: #4078f2; font-weight: bold; }
+  .gt { color: #e45649; }
+  .gl { color: #383a42; }
+  .cd { color: #a0a1a7; font-style: italic; }
+  .kv { color: #a626a4; }
+  .pi { color: #383a42; }
 }
