@@ -27,6 +27,7 @@ permalink: /articles/
     .article-date {
         font-size: 0.9em;
         color: #666;
+        margin-bottom: 2px;
     }
     .article-title {
         font-size: 1.0em;
