@@ -1,4 +1,4 @@
-- default: menu_blog
+- default: menu_index
   url: ''
 
 - default: menu_category
