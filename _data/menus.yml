@@ -1,12 +1,19 @@
-- default: menu_index
+- default: menu_blog
   url: ''
 
 - default: menu_category
   url: 'categories'
+  
+- default: menu_tag
+  url: 'tags'
+
+- title: 'Articles'
+  absoluteUrl: false
+  url: 'articles'
 
 - title: 'Learning'
-  absoluteUrl: true
-  url: 'https://docs.google.com/document/d/e/2PACX-1vSdfrOQuGjbFRxE_YWianfG2KOldzxkO8pOfk-cDgVOHnxz--g4OfikmNLpS4r8PThNGBYUrd8x6FgW/pub'
+  absoluteUrl: false
+  url: 'learning'
 
 - default: menu_about
   url: 'about'
