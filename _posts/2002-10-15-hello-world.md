@@ -9,11 +9,15 @@ tags: [Others]
 
 This is the first post I created:
 
+$$
+e^{i\pi} + 1 = 0
+$$
+
 ```c
 #include <stdio.h>
 
-int main(void){
-    printf("Hello world!\n");
+int main() {
+    printf("Hello, World!\n");
     return 0;
 }
 ```
