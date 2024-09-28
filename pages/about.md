@@ -35,13 +35,13 @@ permalink: /about/
 
   Player
 
-  - The 21st Tamkang Cup National College Table Tennis Invitational Tournament,    New Taipei City
+  - The 21st Tamkang Cup National College Table Tennis Invitational Tournament,    *New Taipei City*
 
 * Table Tennis Team, Anhui University
 
   Player
 
-  - 2023 Tumu Sports Cup Anhui Provincial Table Tennis Invitational Tournament,    Hefei
+  - 2023 Tumu Sports Cup Anhui Provincial Table Tennis Invitational Tournament,    *Hefei*
 
 * Anhui University Chunhui Club (Non-profit volunteer organization, the largest club on campus with 249 official members during my tenure)
 
