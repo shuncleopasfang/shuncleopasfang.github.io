@@ -3,16 +3,19 @@
 .header-info {
   display: block;
   position: relative;
-  margin: 10px;
+  margin: 20px;
 }
 
 .header-info-name {
   font-size: 2em;
   font-weight: bold;
+  margin-bottom: 10px; /* 添加底部邊距 */
 }
 
 .header-info-desc {
   font-size: 0.9em;
+  line-height: 1.5; /* 增加行高 */
+  margin-bottom: 15px; /* 添加底部邊距 */
 }
 
 .header-main-nav {
