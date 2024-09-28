@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "Hello World"
-date:   2002-10-15
-last_modified_at: 2024-09-29
+title: "Hello World"
+date: 2002-10-15
 categories: [Others]
 tags: [Others]
 ---
