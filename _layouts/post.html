@@ -22,21 +22,13 @@ layout: default
     </div>
     {% endif %}
     <div class="post-categories">
-      <span>{{ site.data.lang[site.language].post_categories }}</span>
-      {%- for category in page.categories -%}
-      <a 
-        href="{{ site.baseurl }}/categories#{{ category }}"
-        class="post-category">
-        {{ category }}
-      </a>
-      {%- endfor -%}
+      <span>{{ site.data.lang[site.language].post_categories }}</span>{%- for category in page.categories -%}<a href="{{ site.baseurl }}/categories#{{ category }}" class="post-category">{{ category }}</a>{%- endfor -%}
     </div>
+
     <div class="post-tags">
-      <span>{{ site.data.lang[site.language].post_tags }}</span>
-      {%- for tag in page.tags -%}
-      <span class="post-tag">{{ tag }}</span>
-      {%- endfor -%}
+      <span>{{ site.data.lang[site.language].post_tags }}</span>{%- for tag in page.tags -%}<span class="post-tag">{{ tag }}</span>{%- endfor -%}
     </div>
+
     <div class="post-other">
       {% if page.next %}
       <div>
