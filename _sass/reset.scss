@@ -8,7 +8,6 @@
 
 html, body {
     width: 100%;
-    height: 100vh;
 }
 
 body {
@@ -23,11 +22,11 @@ a {
 }
 
 a:hover {
-    color: inherit;
+    color: #3273dc;
 }
 
 nav a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav a.active {
