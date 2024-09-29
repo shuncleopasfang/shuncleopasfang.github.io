@@ -2,6 +2,13 @@
 
 @media screen and (max-width: 768px) {
   /* reset default styles */
+  
+  /* 为 body 添加左右内边距 */
+  body {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   img {
     width: 100%;
     max-width: 300px;
