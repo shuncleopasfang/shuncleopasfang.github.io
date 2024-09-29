@@ -1,6 +1,3 @@
-- default: menu_home
-  url: 'home'
-
 - title: "Blog"
   url:   ""
 
