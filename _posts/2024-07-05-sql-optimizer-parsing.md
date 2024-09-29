@@ -10,7 +10,11 @@ tags: [SQL]
 
 Notes I made during undergraduate.
 
+<br>
+
 # Preview
+
+<br>
 
 ## 大数据体系和 SQL
 
@@ -40,6 +44,8 @@ Notes I made during undergraduate.
 
 - SQL 中 group-by 和 join 的执行方式
     - Hash-based vs. Sort-based  
+
+<br>
 
 ## 常见的查询优化器
 
@@ -71,6 +77,8 @@ Notes I made during undergraduate.
         - Cardinality
     - 代价模型  
 
+<br>
+
 ## 查询优化器的社区开源实践
 
 - Apache Calcite
@@ -87,6 +95,8 @@ Notes I made during undergraduate.
     - Branch-and-Bound Pruning
     - Winner  
 
+<br>
+
 ## SQL 相关的前沿趋势
 
 - 存储计算分离
@@ -99,7 +109,11 @@ Notes I made during undergraduate.
 
 - 智能化: AI4DB, DB4AI
 
+<br>
+
 # Learning
+
+<br>
 
 ## 大数据体系和 SQL
 
@@ -141,6 +155,8 @@ Notes I made during undergraduate.
 - Executor
     - Executor 按照物理执行计划扫描和处理数据, 充分利用机器资源 (CPU 流水线, 乱序执行, cache, SIMD)  
 
+<br>
+
 ## 常见的查询优化器
 
 - RBO
@@ -172,6 +188,8 @@ Notes I made during undergraduate.
         - **选择率 (selectivity)**: 对于某一个过滤条件, 查询会从表中返回多大比例的数据
         - **基数 (cardinality)**: 基本含义是表的 unique 行数, 在查询计划中常指算子需要处理的行数  
 
+<br>
+
 ## 查询优化器的社区开源实践
 
 - Volcano/Cascade 框架
@@ -181,6 +199,8 @@ Notes I made during undergraduate.
 
 - Branch-and-Bound Pruning
     - 已搜索完成的物理计划的代价最小值成为 Cost Upper Bound. 当新的搜索分支的代价高于它时, 不需继续搜索. 初始 Cost Upper Bound 可由优化器根据启发式规则估算  
+
+<br>
 
 ## SQL 相关的前沿趋势
 
@@ -201,7 +221,11 @@ Notes I made during undergraduate.
         - 内嵌人工智能算法 (MLSQL, SQLFlow)
         - 内嵌机器学习框架 (SparkML, Alink, dl-on-flink)  
 
+<br>
+
 # Review
+
+<br>
 
 - Q: Top-down 和 Bottom-up 的优化方式各有什么优缺点?
 
@@ -221,7 +245,11 @@ Notes I made during undergraduate.
 
 - Q: CBO 里 Branch-and-bound pruning 可以以 bottom-up 的方式进行吗?
 
+<br>
+
 # References
+
+<br>
 
 - CMU 数据库相关课程
     - [初级] [15445.courses.cs.cmu.edu/fall2021/](https://15445.courses.cs.cmu.edu/fall2021/)
