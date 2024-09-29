@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Articles
+title: 
 permalink: /articles/
 ---
-
-<br>
 
 <style>
     .article-list {
