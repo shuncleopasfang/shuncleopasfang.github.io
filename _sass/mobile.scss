@@ -2,8 +2,16 @@
 
 @media screen and (max-width: 768px) {
   /* reset default styles */
-  
+
+  /* 全局设置 box-sizing */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
   /* 为 body 添加左右内边距 */
+
   body {
     padding-left: 15px;
     padding-right: 15px;
