@@ -4,10 +4,11 @@ title: Categories
 permalink: /categories/
 ---
 
-<br>
-
 <article class="container-page">
   <h1 class="page-title">{{ site.data.lang[site.language].categories_title }}</h1>
+  
+  <br>
+  
   <ul class="categories-list">
     {% for category in site.categories %}
     <li id="{{ category | first }}"><strong>{{ category | first }}</strong>

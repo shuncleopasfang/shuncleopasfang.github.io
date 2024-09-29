@@ -2,19 +2,15 @@
 
 .post-title {
   text-align: center;
-  margin-bottom: 30px; /* 增加標題底部邊距 */
 }
 
 .post-content {
   // scrollable for mobile devices
   overflow-x: scroll;
-  margin-top: 20px; /* 增加正文頂部邊距 */
 }
 
 .post-content p {
-  // line-height: 20px;
-  line-height: 1.6; /* 增加行高，改善可讀性 */
-  margin-bottom: 15px; /* 增加段落間距 */
+  line-height: 20px;
 }
 
 .post-content img {
@@ -23,9 +19,8 @@
 }
 
 .post-info {
-  // line-height: 24px;
-  line-height: 1.5; /* 稍微增加行高 */
-  margin: 20px 0;
+  line-height: 24px;
+  margin: 10px 0;
 }
 
 .post-category,
