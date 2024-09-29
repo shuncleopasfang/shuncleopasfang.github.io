@@ -23,19 +23,19 @@ layout: default
     {% endif %}
     <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
-      {% for category in page.categories %}
+      {%- for category in page.categories -%}
       <a 
         href="{{ site.baseurl }}/categories#{{ category }}"
         class="post-category">
         {{ category }}
       </a>
-      {% endfor %}
+      {%- endfor -%}
     </div>
     <div class="post-tags">
       <span>{{ site.data.lang[site.language].post_tags }}</span>
-      {% for tag in page.tags %}
+      {%- for tag in page.tags -%}
       <span class="post-tag">{{ tag }}</span>
-      {% endfor %}
+      {%- endfor -%}
     </div>
     <div class="post-other">
       {% if page.next %}
