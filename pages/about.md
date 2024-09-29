@@ -22,4 +22,4 @@ permalink: /about/
 
   Information and Computing Science
   
-  Undergraduate, September 2021 - July 2025
+  Undergraduate, September 2021 - June 2025
