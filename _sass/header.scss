@@ -26,5 +26,10 @@
   position: relative;
   float: left;
   line-height: 24px;
-  margin: 0 10px;
+  margin-right: 10px; /* 仅设置右外边距 */
+}
+
+/* 针对第一个菜单项，确保其左外边距为 0 */
+.header-main-nav-item:first-child {
+  margin-left: 0;
 }
