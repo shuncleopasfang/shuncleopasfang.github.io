@@ -3,6 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
+
+<br>
+
 ## [Homepage](https://sites.google.com/view/shuncleopasfang/) <span style="font-size: inherit;">🔗</span>
 
 <br>
@@ -20,3 +23,5 @@ permalink: /about/
   Information and Computing Science
   
   Undergraduate, September 2021 - July 2025
+  
+<br>

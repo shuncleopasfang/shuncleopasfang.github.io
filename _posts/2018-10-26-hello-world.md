@@ -6,6 +6,8 @@ categories: [Others]
 tags: [Others]
 ---
 
+<br>
+
 This is the first post I created:
 
 $$
@@ -20,3 +22,5 @@ int main() {
     return 0;
 }
 ```
+
+<br>

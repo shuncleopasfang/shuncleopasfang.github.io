@@ -6,6 +6,8 @@ categories: [Computer Science]
 tags: [SQL]
 ---
 
+<br>
+
 Notes I made during undergraduate.
 
 # Preview
@@ -238,3 +240,5 @@ Notes I made during undergraduate.
 
 - 回顾大数据系统的过去和展望大数据系统的未来
     - [云原生数据库设计新思路](https://pingcap.com/zh/blog/new-ideas-for-designing-cloud-native-database)
+
+<br>
