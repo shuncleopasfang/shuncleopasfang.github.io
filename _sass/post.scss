@@ -26,5 +26,10 @@
 
 .post-category,
 .post-tag {
-  margin: 0 5px;
+  margin: 0 5px 0 0; /* 上下外边距为 0，右外边距为 5px，左外边距为 0 */
+}
+
+.post-category:first-child,
+.post-tag:first-child {
+  margin-left: 0; /* 确保第一个分类或标签的左外边距为 0 */
 }
