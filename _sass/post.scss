@@ -5,8 +5,9 @@
 }
 
 .post-content {
-  // scrollable for mobile devices
-  overflow-x: scroll;
+  /* 当内容超出宽度时自动换行 */
+  word-wrap: break-word; /* 或者使用 overflow-wrap: break-word; */
+  word-break: break-all; /* 对于中文长句的换行 */
 }
 
 .post-content p {
