@@ -37,7 +37,7 @@ permalink: /articles/
         width: 60px;
         height: 60px;
         flex-shrink: 0;
-        margin-right: 30px; /* Increased right margin */
+        margin-right: 10px; /* Increased right margin */
     }
     .article-image {
         width: 100%;
