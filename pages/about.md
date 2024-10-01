@@ -26,8 +26,8 @@ Additionally, I have a keen interest in politics, particularly in Cross-Strait R
 
 <br>
 
-I'm keeping a [diary](https://docs.google.com/document/d/1Yn2rebU6vVxZDhbR59W16ho5bSymMQhY1yFdLFMlqW0/pub) in Chinese.
+I'm keeping a [diary](https://docs.google.com/document/d/1Yn2rebU6vVxZDhbR59W16ho5bSymMQhY1yFdLFMlqW0/pub) in Chinese, recording my daily life. For the future, I am constantly seeking opportunities to cultivate research taste, engineering skills, and political insight, while enabling me to positively impact people and the world.
 
 <br>
 
-*Last updated on Sep 29, 2024*
+*Last updated on Oct 1, 2024*
