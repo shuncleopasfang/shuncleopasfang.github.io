@@ -14,7 +14,7 @@ I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata
 
 <br>
 
-Currently I am a senior majoring in Information and Computing Science at Anhui University and previously studied as an exchange student in the Department of Computer Science and Information Engineering at Feng Chia University in Taiwan. I am interested in natural language processing and machine learning, with a particular focus on knowledge graph and hallucination mitigation in language models. I am preparing for the Fall 2025 admissions to the Data Science program in the Graduate School of Informatics at Kyoto University and the Natural Language Processing laboratory in the Graduate School of Information Science at Nara Institute of Science and Technology.
+Currently I am a senior majoring in Information and Computing Science at Anhui University and previously studied as an exchange student in the Department of Computer Science and Information Engineering at Feng Chia University in Taiwan. I am interested in natural language processing and machine learning, with a particular focus on knowledge graph and hallucination mitigation in language models. I am preparing for admission to Japanese graduate school for the Fall 2025 and Spring 2026 terms.
 
 <br>
 
