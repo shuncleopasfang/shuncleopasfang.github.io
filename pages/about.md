@@ -30,4 +30,4 @@ I'm keeping a [diary](https://docs.google.com/document/d/1Yn2rebU6vVxZDhbR59W16h
 
 <br>
 
-*Last updated on Oct 1, 2024*
+*Last updated on Oct 2, 2024*
