@@ -10,7 +10,20 @@ tags: [Large Language Model]
 
 Notes I made during undergraduate.
 
-Have signed up for the Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
+- Have signed up for the Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
+
+- (Learn:Course;Conduct:Quizzes,Labs,Hackathon,Written_Article|12.10)
+    - Foundation of LLMs
+    - Reasoning
+    - Planning, tool use
+    - LLM agent infrastructure
+    - Retrieval-augmented generation
+    - Code generation, data science
+    - Multimodal agents, robotics
+    - Evaluation and benchmarking on agent applications
+    - Privacy, safety and ethics
+    - Human-agent interaction, personalization, alignment
+    - Multi-agent collaboration
 
 <br>
 
