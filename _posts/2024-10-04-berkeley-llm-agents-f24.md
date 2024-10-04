@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024)"
-date: 2024-10-05
+date: 2024-10-04
 categories: [Computer Science]
 tags: [Large Language Model]
 ---
