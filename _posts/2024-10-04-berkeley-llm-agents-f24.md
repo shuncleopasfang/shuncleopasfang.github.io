@@ -10,6 +10,8 @@ tags: [Large Language Model]
 
 Notes I made during undergraduate.
 
+<br>
+
 - Have signed up for the UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
 
 - The course includes the following topics:
