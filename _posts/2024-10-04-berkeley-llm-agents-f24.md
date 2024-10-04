@@ -10,9 +10,9 @@ tags: [Large Language Model]
 
 Notes I made during undergraduate.
 
-- Have signed up for the Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
+- Have signed up for the UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
 
-- (Learn:Course;Conduct:Quizzes,Labs,Hackathon,Written_Article|12.10)
+- The course includes the following topics:
     - Foundation of LLMs
     - Reasoning
     - Planning, tool use
