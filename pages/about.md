@@ -10,7 +10,7 @@ permalink: /about/
 
 <br>
 
-I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata` and `緒方 順太郎`. The Japanese name, `Juntaro Ogata (緒方 順太郎)`, was thoughtfully crafted based on the suggestion of a Japanese friend, skillfully incorporating elements of my Chinese name, `Shun Fang (方順)`, into its structure.
+I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name, `Juntaro Ogata (緒方 順太郎)`, was thoughtfully crafted based on the suggestion of a Japanese friend, skillfully incorporating elements of my Chinese name, `Shun Fang (方順)`, into its structure. I display my name as `Juntaro Ogata` in most situations.
 
 <br>
 
@@ -18,7 +18,7 @@ Currently I am a senior majoring in Information and Computing Science at Anhui U
 
 <br>
 
-Beyond academics, I have a keen interest in politics, particularly in Cross-strait relations. My political enlightenment was inspired by Taiwan People's Party Chairman Ko Wen-je, and this is a [photo](https://drive.google.com/file/d/1sNDMhoABacYMNcLuC9hYBRy1a_Ciz7TT/view) of us taken on October 15, 2023, along with his [birthday wishes](https://drive.google.com/file/d/1odAayKZWJjTdYFDNo1ajwatOb7xpYK0k/view) for me. On the eve of the Blue-White Alliance political consultation meeting between the Kuomintang (KMT) and the Taiwan People's Party (TPP) to be held at the Ma Ying-jeou Foundation, we embraced and took another commemorative [photo](https://drive.google.com/file/d/1HKwt3E8LJOGD9yqHhOsr2GPRyXsts1CO/view) together. Apart from these, my other political engagements are private information.
+Beyond academics, I have a keen interest in politics, particularly in Japan-Taiwan-mainland China relations. My political enlightenment was inspired by Taiwan People's Party Chairman Ko Wen-je, and this is a [photo](https://drive.google.com/file/d/1sNDMhoABacYMNcLuC9hYBRy1a_Ciz7TT/view) of us taken on October 15, 2023, along with his [birthday wishes](https://drive.google.com/file/d/1odAayKZWJjTdYFDNo1ajwatOb7xpYK0k/view) for me. On the eve of the Blue-White Alliance political consultation meeting between the Kuomintang (KMT) and the Taiwan People's Party (TPP) to be held at the Ma Ying-jeou Foundation, we embraced and took another commemorative [photo](https://drive.google.com/file/d/1HKwt3E8LJOGD9yqHhOsr2GPRyXsts1CO/view) together. Apart from these, my other political engagements are private information.
 
 <br>
 
