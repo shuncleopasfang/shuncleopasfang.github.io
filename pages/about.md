@@ -10,7 +10,7 @@ permalink: /about/
 
 <br>
 
-I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name, `Juntaro Ogata (緒方 順太郎)`, was thoughtfully crafted based on the suggestion of a Japanese friend, skillfully incorporating elements of my Chinese name, `Shun Fang (方順)`, into its structure. I display my name as `Juntaro Ogata` in most situations.
+I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name, `Juntaro Ogata (緒方 順太郎)`, was thoughtfully crafted based on the suggestion of a Japanese friend, skillfully incorporating elements of my Chinese name, `Shun Fang (方順)`, into its structure. I prefer to display my name as `Juntaro Ogata` in most situations.
 
 <br>
 
