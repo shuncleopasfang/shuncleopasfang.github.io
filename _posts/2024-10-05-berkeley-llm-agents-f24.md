@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "UC Berkeley CS294/194-196: Large Language Model Agents"
-date: 2024-10-04
+date: 2024-10-05
 categories: [Computer Science]
 tags: [Large Language Model]
 ---
@@ -33,7 +33,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## Lec 1: LLM Reasoning |10.11
+## Lec 1: LLM Reasoning
 
 ...
 
@@ -43,7 +43,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## Quiz 1 - LLM Reasoning |10.11
+## Quiz 1 - LLM Reasoning
 
 ...
 
