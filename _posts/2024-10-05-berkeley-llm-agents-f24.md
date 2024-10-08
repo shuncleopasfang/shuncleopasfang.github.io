@@ -10,10 +10,8 @@ tags: [Large Language Model]
 
 # Table of Contents
 
-<br>
-
 - [Course](#Course)
-    - [Lec 1: LLM Reasoning(#Lec-1-LLM-Reasoning)
+    - [Lec 1: LLM Reasoning](#Lec-1-LLM-Reasoning)
     
 - [Quizzes](#Quizzes)
     - [Quiz 1: LLM Reasoning](#Quiz-1-LLM-Reasoning)

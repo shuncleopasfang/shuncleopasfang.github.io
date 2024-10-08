@@ -10,8 +10,6 @@ tags: [SQL]
 
 # Table of Contents
 
-<br>
-
 - [Preview](#Preview)
     - [大数据体系和 SQL](#大数据体系和-SQL-1)
     - [常见的查询优化器](#常见的查询优化器-1)
