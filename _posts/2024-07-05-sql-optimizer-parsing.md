@@ -25,11 +25,12 @@ tags: [SQL]
 - [References](#References)
 
 <br>
-# Preview <a name="Preview"></a>
+<a name="Preview"></a>
+# Preview
 
 <br>
 <a name="大数据体系和-SQL-1"></a>
-## 大数据体系和 SQL test
+## 大数据体系和 SQL
 
 - 生产系统中的大数据体系
     - 云厂商 (火山引擎, 阿里云, 腾讯云, 华为云, Google Cloud, Microsoft Azure) 提供的大数据相关的产品, 包括计算、存储、调度、应用等
@@ -59,7 +60,8 @@ tags: [SQL]
     - Hash-based vs. Sort-based  
 
 <br>
-## 常见的查询优化器 <a name="常见的查询优化器-1"></a>
+<a name="常见的查询优化器-1"></a>
+## 常见的查询优化器
 
 - Top-down Optimizer
 
@@ -90,7 +92,8 @@ tags: [SQL]
     - 代价模型  
 
 <br>
-## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-1"></a>
+<a name="查询优化器的社区开源实践-1"></a>
+## 查询优化器的社区开源实践
 
 - Apache Calcite
 
@@ -107,7 +110,8 @@ tags: [SQL]
     - Winner  
 
 <br>
-## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-1"></a>
+<a name="SQL-相关的前沿趋势-1"></a>
+## SQL 相关的前沿趋势
 
 - 存储计算分离
 
@@ -120,10 +124,12 @@ tags: [SQL]
 - 智能化: AI4DB, DB4AI
 
 <br>
-# Learning <a name="Learning"></a>
+<a name="Learning"></a>
+# Learning
 
 <br>
-## 大数据体系和 SQL <a name="大数据体系和-SQL-2"></a>
+<a name="大数据体系和-SQL-2"></a>
+## 大数据体系和 SQL
 
 - 为什么 SQL 如此流行？
     - 有 MySQL、Oracle 之类使用 SQL 作为交互语言的数据库
@@ -164,7 +170,8 @@ tags: [SQL]
     - Executor 按照物理执行计划扫描和处理数据, 充分利用机器资源 (CPU 流水线, 乱序执行, cache, SIMD)  
 
 <br>
-## 常见的查询优化器 <a name="常见的查询优化器-2"></a>
+<a name="常见的查询优化器-2"></a>
+## 常见的查询优化器
 
 - RBO
     - 基于关系代数等价规则对逻辑计划进行变换
@@ -196,7 +203,8 @@ tags: [SQL]
         - **基数 (cardinality)**: 基本含义是表的 unique 行数, 在查询计划中常指算子需要处理的行数  
 
 <br>
-## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-2"></a>
+<a name="查询优化器的社区开源实践-2"></a>
+## 查询优化器的社区开源实践
 
 - Volcano/Cascade 框架
     - Memo
@@ -207,7 +215,8 @@ tags: [SQL]
     - 已搜索完成的物理计划的代价最小值成为 Cost Upper Bound. 当新的搜索分支的代价高于它时, 不需继续搜索. 初始 Cost Upper Bound 可由优化器根据启发式规则估算  
 
 <br>
-## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-2"></a>
+<a name="SQL-相关的前沿趋势-2"></a>
+## SQL 相关的前沿趋势
 
 - 存储计算分离
 
@@ -227,7 +236,8 @@ tags: [SQL]
         - 内嵌机器学习框架 (SparkML, Alink, dl-on-flink)  
 
 <br>
-# References <a name="References"></a>
+<a name="References"></a>
+# References
 
 <br>
 - CMU 数据库相关课程

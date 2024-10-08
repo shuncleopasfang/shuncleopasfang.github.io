@@ -23,7 +23,8 @@ tags: [Large Language Model]
 - [Written Article](#Written-Article)
 
 <br>
-# Course <a name="Course"></a>
+<a name="Course"></a>
+# Course
 
 <br>
 Have signed up for the UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
@@ -44,7 +45,8 @@ The course includes the following topics:
 - Multi-agent collaboration
 
 <br>
-## Lec 1: LLM Reasoning <a name="Lec-1-LLM-Reasoning"></a>
+<a name="Lec-1-LLM-Reasoning"></a>
+## Lec 1: LLM Reasoning
 
 <br>
 Notes will be updated soon...
@@ -53,10 +55,12 @@ Notes will be updated soon...
 Notes will be updated soon...
 
 <br>
-# Quizzes <a name="Quizzes"></a>
+<a name="Quizzes"></a>
+# Quizzes
 
 <br>
-## Quiz 1: LLM Reasoning <a name="Quiz-1-LLM-Reasoning"></a>
+<a name="Quiz-1-LLM-Reasoning"></a>
+## Quiz 1: LLM Reasoning
 
 <br>
 Notes will be updated soon...
@@ -65,12 +69,15 @@ Notes will be updated soon...
 Notes will be updated soon...
 
 <br>
-# Labs <a name="Labs"></a>
+<a name="Labs"></a>
+# Labs
 
 <br>
-# Hackathon <a name="Hackathon"></a>
+<a name="Hackathon"></a>
+# Hackathon
 
 <br>
-# Written Article <a name="Written-Article"></a>
+<a name="Written-Article"></a>
+# Written Article
 
 <br>
