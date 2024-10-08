@@ -10,6 +10,14 @@ tags: [Probability and Statistics]
 
 Notes I made during my undergraduate courses.
 
+test1
+<br>
+test2
+
+<br>
+
+test3
+
 <br>
 
 [notes-ahu-mathematical-statistics.pdf](https://shuncleopasfang.github.io/assets/file/notes-ahu-mathematical-statistics.pdf)  
