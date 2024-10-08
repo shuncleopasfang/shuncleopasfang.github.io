@@ -28,7 +28,7 @@ tags: [SQL]
 # Preview <a name="Preview"></a>
 
 <br>
-## 大数据体系和 SQL <a name="大数据体系和-SQL-1"></a>
+<a name="大数据体系和-SQL-1"></a> ## 大数据体系和 SQL
 
 - 生产系统中的大数据体系
     - 云厂商 (火山引擎, 阿里云, 腾讯云, 华为云, Google Cloud, Microsoft Azure) 提供的大数据相关的产品, 包括计算、存储、调度、应用等
