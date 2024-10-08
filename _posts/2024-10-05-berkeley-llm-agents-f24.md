@@ -10,7 +10,6 @@ tags: [Large Language Model]
 
 # Table of Contents
 
-<br>
 - [Course](#Course)
     - [Lec 1: LLM Reasoning](#Lec-1-LLM-Reasoning)
     
@@ -27,9 +26,10 @@ tags: [Large Language Model]
 # Course <a name="Course"></a>
 
 <br>
-- Have signed up for the UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
+Have signed up for the UC Berkeley CS294/194-196: Large Language Model Agents (MOOC, Fall 2024) course on Oct 5, 2024.
 
-- The course includes the following topics:
+<br>
+The course includes the following topics:
     - Foundation of LLMs
     - Reasoning
     - Planning, tool use
@@ -48,11 +48,17 @@ tags: [Large Language Model]
 ...
 
 <br>
+...
+
+<br>
 # Quizzes <a name="Quizzes"></a>
 
 <br>
 ## Quiz 1: LLM Reasoning <a name="Quiz-1-LLM-Reasoning"></a>
 
+...
+
+<br>
 ...
 
 <br>
