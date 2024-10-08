@@ -10,27 +10,27 @@ tags: [SQL]
 
 # Table of Contents
 
-- [Preview](#Preview)
-    - [大数据体系和 SQL](#大数据体系和-SQL-1)
-    - [常见的查询优化器](#常见的查询优化器-1)
-    - [查询优化器的社区开源实践](#查询优化器的社区开源实践-1)
-    - [SQL 相关的前沿趋势](#SQL-相关的前沿趋势-1)
+- [Preview](#preview)
+    - [Preview: Big Data Ecosystem and SQL](#preview-big-data-ecosystem-and-sql)
+    - [Preview: Common Query Optimizers](#preview-common-query-optimizers)
+    - [Preview: Community Open-Source Projects in Query Optimization](#preview-community-open-source-projects-in-query-optimization)
+    - [Preview: Emerging Trends in SQL](#preview-emerging-trends-in-sql)
     
-- [Learning](#Learning)
-    - [大数据体系和 SQL](#大数据体系和-SQL-2)
-    - [常见的查询优化器](#常见的查询优化器-2)
-    - [查询优化器的社区开源实践](#查询优化器的社区开源实践-2)
-    - [SQL 相关的前沿趋势](#SQL-相关的前沿趋势-2)
+- [Learning](#learning)
+    - [Learning: Big Data Ecosystem and SQL](#learning-big-data-ecosystem-and-sql)
+    - [Learning: Common Query Optimizers](#learning-common-query-optimizers)
+    - [Learning: Community Open-Source Projects in Query Optimization](#learning-community-open-source-projects-in-query-optimization)
+    - [Learning: Emerging Trends in SQL](#learning-emerging-trends-in-sql)
     
-- [References](#References)
+- [References](#references)
 
 <br>
-<a name="Preview"></a>
+<a name="preview"></a>
 # Preview
 
 <br>
-<a name="大数据体系和-SQL-1"></a>
-## 大数据体系和 SQL
+<a name="preview-big-data-ecosystem-and-sql"></a>
+## Preview: Big Data Ecosystem and SQL
 
 - 生产系统中的大数据体系
     - 云厂商 (火山引擎, 阿里云, 腾讯云, 华为云, Google Cloud, Microsoft Azure) 提供的大数据相关的产品, 包括计算、存储、调度、应用等
@@ -60,8 +60,8 @@ tags: [SQL]
     - Hash-based vs. Sort-based  
 
 <br>
-<a name="常见的查询优化器-1"></a>
-## 常见的查询优化器
+<a name="preview-common-query-optimizers"></a>
+## Preview: Common Query Optimizers
 
 - Top-down Optimizer
 
@@ -92,8 +92,8 @@ tags: [SQL]
     - 代价模型  
 
 <br>
-<a name="查询优化器的社区开源实践-1"></a>
-## 查询优化器的社区开源实践
+<a name="preview-community-open-source-projects-in-query-optimization"></a>
+## Preview: Community Open-Source Projects in Query Optimization
 
 - Apache Calcite
 
@@ -110,8 +110,8 @@ tags: [SQL]
     - Winner  
 
 <br>
-<a name="SQL-相关的前沿趋势-1"></a>
-## SQL 相关的前沿趋势
+<a name="preview-emerging-trends-in-sql"></a>
+## Preview: Emerging Trends in SQL
 
 - 存储计算分离
 
@@ -124,12 +124,12 @@ tags: [SQL]
 - 智能化: AI4DB, DB4AI
 
 <br>
-<a name="Learning"></a>
+<a name="learning"></a>
 # Learning
 
 <br>
-<a name="大数据体系和-SQL-2"></a>
-## 大数据体系和 SQL
+<a name="learning-big-data-ecosystem-and-sql"></a>
+## Learning: Big Data Ecosystem and SQL
 
 - 为什么 SQL 如此流行？
     - 有 MySQL、Oracle 之类使用 SQL 作为交互语言的数据库
@@ -170,8 +170,8 @@ tags: [SQL]
     - Executor 按照物理执行计划扫描和处理数据, 充分利用机器资源 (CPU 流水线, 乱序执行, cache, SIMD)  
 
 <br>
-<a name="常见的查询优化器-2"></a>
-## 常见的查询优化器
+<a name="learning-common-query-optimizers"></a>
+## Learning: Common Query Optimizers
 
 - RBO
     - 基于关系代数等价规则对逻辑计划进行变换
@@ -203,8 +203,8 @@ tags: [SQL]
         - **基数 (cardinality)**: 基本含义是表的 unique 行数, 在查询计划中常指算子需要处理的行数  
 
 <br>
-<a name="查询优化器的社区开源实践-2"></a>
-## 查询优化器的社区开源实践
+<a name="learning-community-open-source-projects-in-query-optimization"></a>
+## Learning: Community Open-Source Projects in Query Optimization
 
 - Volcano/Cascade 框架
     - Memo
@@ -215,8 +215,8 @@ tags: [SQL]
     - 已搜索完成的物理计划的代价最小值成为 Cost Upper Bound. 当新的搜索分支的代价高于它时, 不需继续搜索. 初始 Cost Upper Bound 可由优化器根据启发式规则估算  
 
 <br>
-<a name="SQL-相关的前沿趋势-2"></a>
-## SQL 相关的前沿趋势
+<a name="learning-emerging-trends-in-sql"></a>
+## Learning: Emerging Trends in SQL
 
 - 存储计算分离
 
@@ -236,7 +236,7 @@ tags: [SQL]
         - 内嵌机器学习框架 (SparkML, Alink, dl-on-flink)  
 
 <br>
-<a name="References"></a>
+<a name="references"></a>
 # References
 
 <br>

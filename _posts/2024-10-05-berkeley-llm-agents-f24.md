@@ -10,20 +10,20 @@ tags: [Large Language Model]
 
 # Table of Contents
 
-- [Course](#Course)
-    - [Lec 1: LLM Reasoning](#Lec-1-LLM-Reasoning)
+- [Course](#course)
+    - [Lecture 1: LLM Reasoning](#lecture-1-llm-reasoning)
     
-- [Quizzes](#Quizzes)
-    - [Quiz 1: LLM Reasoning](#Quiz-1-LLM-Reasoning)
+- [Quizzes](#quizzes)
+    - [Quiz 1: LLM Reasoning](#quiz-1-llm-reasoning)
     
-- [Labs](#Labs)
+- [Labs](#labs)
 
-- [Hackathon](#Hackathon)
+- [Hackathon](#hackathon)
 
-- [Written Article](#Written-Article)
+- [Written Article](#written-article)
 
 <br>
-<a name="Course"></a>
+<a name="course"></a>
 # Course
 
 <br>
@@ -45,8 +45,8 @@ The course includes the following topics:
 - Multi-agent collaboration
 
 <br>
-<a name="Lec-1-LLM-Reasoning"></a>
-## Lec 1: LLM Reasoning
+<a name="lecture-1-llm-reasoning"></a>
+## Lecture 1: LLM Reasoning
 
 <br>
 Notes will be updated soon...
@@ -55,11 +55,11 @@ Notes will be updated soon...
 Notes will be updated soon...
 
 <br>
-<a name="Quizzes"></a>
+<a name="quizzes"></a>
 # Quizzes
 
 <br>
-<a name="Quiz-1-LLM-Reasoning"></a>
+<a name="quiz-1-llm-reasoning"></a>
 ## Quiz 1: LLM Reasoning
 
 <br>
@@ -69,15 +69,15 @@ Notes will be updated soon...
 Notes will be updated soon...
 
 <br>
-<a name="Labs"></a>
+<a name="labs"></a>
 # Labs
 
 <br>
-<a name="Hackathon"></a>
+<a name="hackathon"></a>
 # Hackathon
 
 <br>
-<a name="Written-Article"></a>
+<a name="written-article"></a>
 # Written Article
 
 <br>
