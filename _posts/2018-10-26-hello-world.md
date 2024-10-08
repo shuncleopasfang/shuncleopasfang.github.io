@@ -11,13 +11,11 @@ tags: [Others]
 This is the first post I created.
 
 <br>
-
 $$
 e^{i\pi} + 1 = 0
 $$
 
 <br>
-
 ```c
 #include <stdio.h>
 

@@ -10,6 +10,7 @@ tags: [SQL]
 
 # Table of Contents
 
+<br>
 - [Preview](#Preview)
     - [大数据体系和 SQL](#大数据体系和-SQL-1)
     - [常见的查询优化器](#常见的查询优化器-1)
@@ -25,11 +26,9 @@ tags: [SQL]
 - [References](#References)
 
 <br>
-
 # Preview <a name="Preview"></a>
 
 <br>
-
 ## 大数据体系和 SQL <a name="大数据体系和-SQL-1"></a>
 
 - 生产系统中的大数据体系
@@ -60,7 +59,6 @@ tags: [SQL]
     - Hash-based vs. Sort-based  
 
 <br>
-
 ## 常见的查询优化器 <a name="常见的查询优化器-1"></a>
 
 - Top-down Optimizer
@@ -92,7 +90,6 @@ tags: [SQL]
     - 代价模型  
 
 <br>
-
 ## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-1"></a>
 
 - Apache Calcite
@@ -110,7 +107,6 @@ tags: [SQL]
     - Winner  
 
 <br>
-
 ## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-1"></a>
 
 - 存储计算分离
@@ -124,11 +120,9 @@ tags: [SQL]
 - 智能化: AI4DB, DB4AI
 
 <br>
-
 # Learning <a name="Learning"></a>
 
 <br>
-
 ## 大数据体系和 SQL <a name="大数据体系和-SQL-2"></a>
 
 - 为什么 SQL 如此流行？
@@ -170,7 +164,6 @@ tags: [SQL]
     - Executor 按照物理执行计划扫描和处理数据, 充分利用机器资源 (CPU 流水线, 乱序执行, cache, SIMD)  
 
 <br>
-
 ## 常见的查询优化器 <a name="常见的查询优化器-2"></a>
 
 - RBO
@@ -203,7 +196,6 @@ tags: [SQL]
         - **基数 (cardinality)**: 基本含义是表的 unique 行数, 在查询计划中常指算子需要处理的行数  
 
 <br>
-
 ## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-2"></a>
 
 - Volcano/Cascade 框架
@@ -215,7 +207,6 @@ tags: [SQL]
     - 已搜索完成的物理计划的代价最小值成为 Cost Upper Bound. 当新的搜索分支的代价高于它时, 不需继续搜索. 初始 Cost Upper Bound 可由优化器根据启发式规则估算  
 
 <br>
-
 ## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-2"></a>
 
 - 存储计算分离
@@ -236,11 +227,9 @@ tags: [SQL]
         - 内嵌机器学习框架 (SparkML, Alink, dl-on-flink)  
 
 <br>
-
 # References <a name="References"></a>
 
 <br>
-
 - CMU 数据库相关课程
     - [初级] [15445.courses.cs.cmu.edu/fall2021/](https://15445.courses.cs.cmu.edu/fall2021/)
     - [高级] [15721.courses.cs.cmu.edu/spring2020/](https://15721.courses.cs.cmu.edu/spring2020/)  
