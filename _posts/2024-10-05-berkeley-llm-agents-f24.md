@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "UC Berkeley CS294/194-196: Large Language Model Agents"
+title: "[Notes] UC Berkeley CS294/194-196: Large Language Model Agents"
 date: 2024-10-05
 categories: [Computer Science]
 tags: [Large Language Model]
@@ -8,7 +8,25 @@ tags: [Large Language Model]
 
 <br>
 
-Notes I made during undergraduate.
+# Table of Contents
+
+<br>
+
+- [Course](#Course)
+    - [Lec 1: LLM Reasoning(#Lec-1-LLM-Reasoning)
+    
+- [Quizzes](#Quizzes)
+    - [Quiz 1: LLM Reasoning](#Quiz-1-LLM-Reasoning)
+    
+- [Labs](#Labs)
+
+- [Hackathon](#Hackathon)
+
+- [Written Article](#Written-Article)
+
+<br>
+
+# Course <a name="Course"></a>
 
 <br>
 
@@ -29,34 +47,30 @@ Notes I made during undergraduate.
 
 <br>
 
-# Course
-
-<br>
-
-## Lec 1: LLM Reasoning
+## Lec 1: LLM Reasoning <a name="Lec-1-LLM-Reasoning"></a>
 
 ...
 
 <br>
 
-# Quizzes
+# Quizzes <a name="Quizzes"></a>
 
 <br>
 
-## Quiz 1 - LLM Reasoning
+## Quiz 1: LLM Reasoning <a name="Quiz-1-LLM-Reasoning"></a>
 
 ...
 
 <br>
 
-# Labs
+# Labs <a name="Labs"></a>
 
 <br>
 
-# Hackathon
+# Hackathon <a name="Hackathon"></a>
 
 <br>
 
-# Written Article
+# Written Article <a name="Written-Article"></a>
 
 <br>

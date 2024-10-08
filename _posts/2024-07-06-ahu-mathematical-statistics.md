@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AHU Mathematical Statistics"
+title: "[Notes] AHU Mathematical Statistics"
 date: 2024-07-06
 categories: [Mathematics]
 tags: [Probability and Statistics]
@@ -8,11 +8,7 @@ tags: [Probability and Statistics]
 
 <br>
 
-Notes I made during undergraduate.
-
-<br>
-
-# Learning
+Notes I made during my undergraduate courses.
 
 <br>
 

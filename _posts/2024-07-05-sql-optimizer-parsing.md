@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL Optimizer Parsing"
+title: "[Notes] SQL Optimizer Parsing"
 date: 2024-07-05
 categories: [Computer Science]
 tags: [SQL]
@@ -8,15 +8,31 @@ tags: [SQL]
 
 <br>
 
-Notes I made during undergraduate.
+# Table of Contents
 
 <br>
 
-# Preview
+- [Preview](#Preview)
+    - [大数据体系和 SQL](#大数据体系和-SQL-1)
+    - [常见的查询优化器](#常见的查询优化器-1)
+    - [查询优化器的社区开源实践](#查询优化器的社区开源实践-1)
+    - [SQL 相关的前沿趋势](#SQL-相关的前沿趋势-1)
+    
+- [Learning](#Learning)
+    - [大数据体系和 SQL](#大数据体系和-SQL-2)
+    - [常见的查询优化器](#常见的查询优化器-2)
+    - [查询优化器的社区开源实践](#查询优化器的社区开源实践-2)
+    - [SQL 相关的前沿趋势](#SQL-相关的前沿趋势-2)
+    
+- [References](#References)
 
 <br>
 
-## 大数据体系和 SQL
+# Preview <a name="Preview"></a>
+
+<br>
+
+## 大数据体系和 SQL <a name="大数据体系和-SQL-1"></a>
 
 - 生产系统中的大数据体系
     - 云厂商 (火山引擎, 阿里云, 腾讯云, 华为云, Google Cloud, Microsoft Azure) 提供的大数据相关的产品, 包括计算、存储、调度、应用等
@@ -47,7 +63,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## 常见的查询优化器
+## 常见的查询优化器 <a name="常见的查询优化器-1"></a>
 
 - Top-down Optimizer
 
@@ -79,7 +95,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## 查询优化器的社区开源实践
+## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-1"></a>
 
 - Apache Calcite
 
@@ -97,7 +113,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## SQL 相关的前沿趋势
+## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-1"></a>
 
 - 存储计算分离
 
@@ -111,11 +127,11 @@ Notes I made during undergraduate.
 
 <br>
 
-# Learning
+# Learning <a name="Learning"></a>
 
 <br>
 
-## 大数据体系和 SQL
+## 大数据体系和 SQL <a name="大数据体系和-SQL-2"></a>
 
 - 为什么 SQL 如此流行？
     - 有 MySQL、Oracle 之类使用 SQL 作为交互语言的数据库
@@ -157,7 +173,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## 常见的查询优化器
+## 常见的查询优化器 <a name="常见的查询优化器-2"></a>
 
 - RBO
     - 基于关系代数等价规则对逻辑计划进行变换
@@ -190,7 +206,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## 查询优化器的社区开源实践
+## 查询优化器的社区开源实践 <a name="查询优化器的社区开源实践-2"></a>
 
 - Volcano/Cascade 框架
     - Memo
@@ -202,7 +218,7 @@ Notes I made during undergraduate.
 
 <br>
 
-## SQL 相关的前沿趋势
+## SQL 相关的前沿趋势 <a name="SQL-相关的前沿趋势-2"></a>
 
 - 存储计算分离
 
@@ -223,31 +239,7 @@ Notes I made during undergraduate.
 
 <br>
 
-# Review
-
-<br>
-
-- Q: Top-down 和 Bottom-up 的优化方式各有什么优缺点?
-
-- Q: Aggregate 和 Join 上面的 Filter 下推需要注意什么? 什么类型的谓词才能下推倒 Aggregate 和 Join 算子的下面?
-
-- Q: Runtime Filter 在什么情况下会造成性能回退?
-
-- Q: 了解并简要解释一下 Spark 系统中 Join Cardinality 的估算方式
-
-- Q: 了解并简要解释一下 Aggregate cardinality/NDV 的估算方式
-
-- Q: 了解并简要解释一下直方图在统计信息估计中的作用
-
-- Q: RBO 里几种 pattern 匹配规则 (ARBITRARY, DEPTH_FIRST, TOP_DOWN, BOTTOM_UP) 有什么优缺点?
-
-- Q: RBO 直到没有可以匹配的 rule 才结束在 serving 场景 (在线服务场景) 可能会有什么问题? (考虑 rule 很多的情况) 除了这种结束方式, 还有什么其他结束方式?
-
-- Q: CBO 里 Branch-and-bound pruning 可以以 bottom-up 的方式进行吗?
-
-<br>
-
-# References
+# References <a name="References"></a>
 
 <br>
 
