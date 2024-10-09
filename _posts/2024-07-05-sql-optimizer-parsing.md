@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Notes] SQL Optimizer Parsing"
+title: "SQL Optimizer Parsing"
 date: 2024-07-05
 categories: [Computer Science]
 tags: [SQL]

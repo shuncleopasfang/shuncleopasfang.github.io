@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Notes] UC Berkeley CS294/194-196: Large Language Model Agents"
+title: "UC Berkeley CS294/194-196: Large Language Model Agents"
 date: 2024-10-05
 categories: [Computer Science]
 tags: [Large Language Model]

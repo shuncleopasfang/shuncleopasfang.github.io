@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Notes] AHU Mathematical Statistics"
+title: "AHU Mathematical Statistics"
 date: 2024-07-06
 categories: [Mathematics]
 tags: [Probability and Statistics]
