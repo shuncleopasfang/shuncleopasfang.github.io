@@ -11,16 +11,16 @@ tags: [SQL]
 # Table of Contents
 
 - [Preview](#preview)
-    - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-1)
-    - [Common Query Optimizers](#common-query-optimizers-1)
-    - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-1)
-    - [Emerging Trends in SQL](#emerging-trends-in-sql-1)
+    - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-1st)
+    - [Common Query Optimizers](#common-query-optimizers-1st)
+    - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-1st)
+    - [Emerging Trends in SQL](#emerging-trends-in-sql-1st)
     
 - [Learning](#learning)
-    - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-2)
-    - [Common Query Optimizers](#common-query-optimizers-2)
-    - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-2)
-    - [Emerging Trends in SQL](#emerging-trends-in-sql-2)
+    - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-2nd)
+    - [Common Query Optimizers](#common-query-optimizers-2nd)
+    - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-2nd)
+    - [Emerging Trends in SQL](#emerging-trends-in-sql-2nd)
     
 - [References](#references)
 
@@ -29,7 +29,7 @@ tags: [SQL]
 # Preview
 
 <br>
-<a name="big-data-ecosystem-and-sql-1"></a>
+<a name="big-data-ecosystem-and-sql-1st"></a>
 ## Big Data Ecosystem and SQL
 
 - 生产系统中的大数据体系
@@ -60,7 +60,7 @@ tags: [SQL]
     - Hash-based vs. Sort-based  
 
 <br>
-<a name="common-query-optimizers-1"></a>
+<a name="common-query-optimizers-1st"></a>
 ## Common Query Optimizers
 
 - Top-down Optimizer
@@ -92,7 +92,7 @@ tags: [SQL]
     - 代价模型  
 
 <br>
-<a name="community-open-source-projects-in-query-optimization-1"></a>
+<a name="community-open-source-projects-in-query-optimization-1st"></a>
 ## Community Open-Source Projects in Query Optimization
 
 - Apache Calcite
@@ -110,7 +110,7 @@ tags: [SQL]
     - Winner  
 
 <br>
-<a name="emerging-trends-in-sql-1"></a>
+<a name="emerging-trends-in-sql-1st"></a>
 ## Emerging Trends in SQL
 
 - 存储计算分离
@@ -128,7 +128,7 @@ tags: [SQL]
 # Learning
 
 <br>
-<a name="big-data-ecosystem-and-sql-2"></a>
+<a name="big-data-ecosystem-and-sql-2nd"></a>
 ## Big Data Ecosystem and SQL
 
 - 为什么 SQL 如此流行？
@@ -170,7 +170,7 @@ tags: [SQL]
     - Executor 按照物理执行计划扫描和处理数据, 充分利用机器资源 (CPU 流水线, 乱序执行, cache, SIMD)  
 
 <br>
-<a name="common-query-optimizers-2"></a>
+<a name="common-query-optimizers-2nd"></a>
 ## Common Query Optimizers
 
 - RBO
@@ -203,7 +203,7 @@ tags: [SQL]
         - **基数 (cardinality)**: 基本含义是表的 unique 行数, 在查询计划中常指算子需要处理的行数  
 
 <br>
-<a name="community-open-source-projects-in-query-optimization-2"></a>
+<a name="community-open-source-projects-in-query-optimization-2nd"></a>
 ## Community Open-Source Projects in Query Optimization
 
 - Volcano/Cascade 框架
@@ -215,7 +215,7 @@ tags: [SQL]
     - 已搜索完成的物理计划的代价最小值成为 Cost Upper Bound. 当新的搜索分支的代价高于它时, 不需继续搜索. 初始 Cost Upper Bound 可由优化器根据启发式规则估算  
 
 <br>
-<a name="emerging-trends-in-sql-2"></a>
+<a name="emerging-trends-in-sql-2nd"></a>
 ## Emerging Trends in SQL
 
 - 存储计算分离
