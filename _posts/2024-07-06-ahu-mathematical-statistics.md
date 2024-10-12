@@ -8,7 +8,7 @@ tags: [Probability and Statistics]
 
 <br>
 
-Notes I made during my undergraduate courses.
+Notes I made during my undergraduate courses at the School of Mathematical Sciences.
 
 <br>
 [notes-ahu-mathematical-statistics.pdf](https://shuncleopasfang.github.io/assets/file/notes-ahu-mathematical-statistics.pdf)  
