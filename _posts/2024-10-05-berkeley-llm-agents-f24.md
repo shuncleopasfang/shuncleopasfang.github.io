@@ -18,8 +18,6 @@ tags: [Large Language Model]
     
 - [Labs](#labs)
 
-- [Hackathon](#hackathon)
-
 - [Written Article](#written-article)
 
 <br>
@@ -71,10 +69,6 @@ Notes will be updated soon...
 <br>
 <a name="labs"></a>
 # Labs
-
-<br>
-<a name="hackathon"></a>
-# Hackathon
 
 <br>
 <a name="written-article"></a>
