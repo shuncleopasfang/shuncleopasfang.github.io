@@ -19,8 +19,7 @@ test 距上一換行
 <br>
 test 距上一br
 
-<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" alt="shuncleopasfang" />
-<center><small>shuncleopasfangttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest</small></center>
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" alt="shuncleopasfang" /><center><small>shuncleopasfangttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest</small></center>
 
 $$
 e^{i\pi} + 1 = 0
