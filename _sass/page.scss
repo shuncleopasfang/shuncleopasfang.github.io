@@ -14,12 +14,12 @@
 
 .page-content img {
   display: block;
-  margin: 10px auto 5px;
+  margin: 10px auto 0;
 }
 
 /* 新增：為圖片說明添加樣式 */
 .page-content img + center {
-  margin-top: -5px; /* 使用負 margin 來進一步減少距離 */
+  margin-top: 5px; /* 使用負 margin 來進一步減少距離 */
 }
 
 .page-content center small {
@@ -27,4 +27,5 @@
   font-size: 0.9em; /* 可選：調整字體大小 */
   color: #666; /* 可選：調整文字顏色 */
   line-height: 1.2; /* 調整行高 */
+  margin: 0;
 }

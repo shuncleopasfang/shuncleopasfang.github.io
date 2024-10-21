@@ -9,6 +9,9 @@
   overflow-wrap: break-word; /* 替代 word-wrap: break-word; */
   word-break: normal; /* 替代 word-break: break-all; */
   hyphens: auto; /* 在適當的地方添加連字符 */
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .post-content p {
@@ -17,12 +20,12 @@
 
 .post-content img {
   display: block;
-  margin: 10px auto 5px;
+  margin: 10px auto 0;
 }
 
 /* 新增：為圖片說明添加樣式 */
 .post-content img + center {
-  margin-top: -5px; /* 使用負 margin 來進一步減少距離 */
+  margin-top: 5px; /* 使用負 margin 來進一步減少距離 */
 }
 
 .post-content center small {
@@ -30,6 +33,7 @@
   font-size: 0.9em; /* 可選：調整字體大小 */
   color: #666; /* 可選：調整文字顏色 */
   line-height: 1.2; /* 調整行高 */
+  margin: 0;
 }
 
 .post-info {

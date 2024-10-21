@@ -10,6 +10,8 @@ This is the first post I created.
 
 test 距上一換行
 
+test 距上一換行
+
 <br>
 test 距上一換行一br
 
@@ -18,7 +20,7 @@ test 距上一換行
 test 距上一br
 
 <img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" alt="shuncleopasfang" />
-<center><small>shuncleopasfangtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest</small></center>
+<center><small>shuncleopasfangttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest</small></center>
 
 $$
 e^{i\pi} + 1 = 0
