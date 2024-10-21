@@ -6,6 +6,8 @@ categories: [Computer Science]
 tags: [SQL]
 ---
 
+<span style="color: gray;">Date: Jul 5, 2024</span>
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -207,3 +209,5 @@ tags: [SQL]
 - [github.com/pingcap/awe…](https://github.com/pingcap/awesome-database-learning#query-optimizer)
 - 回顾大数据系统的过去和展望大数据系统的未来
     - [云原生数据库设计新思路](https://pingcap.com/zh/blog/new-ideas-for-designing-cloud-native-database)
+
+<span style="color: gray;">Author: Juntaro Ogata</span>

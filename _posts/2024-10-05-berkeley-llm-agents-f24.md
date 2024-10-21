@@ -6,6 +6,8 @@ categories: [Computer Science]
 tags: [Large Language Model]
 ---
 
+<span style="color: gray;">Date: Oct 5, 2024</span>
+
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
@@ -57,3 +59,5 @@ Notes will be updated soon...
 
 <a name="written-article"></a>
 # Written Article
+
+<span style="color: gray;">Author: Juntaro Ogata</span>

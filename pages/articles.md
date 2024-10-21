@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Articles
+title: 
 permalink: /articles/
 ---
+
+**Articles**
 
 <style>
     .article-list {
@@ -126,3 +128,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
+
+<span style="color: gray;">Author: Juntaro Ogata</span>

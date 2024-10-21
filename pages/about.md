@@ -1,8 +1,10 @@
 ---
 layout: page
-title: About
+title: 
 permalink: /about/
 ---
+
+**About**
 
 * [Juntaro Ogata's homepage](https://sites.google.com/view/shuncleopasfang/) 🔒
 * Email: `shuncleopasfang at gmail dot com`

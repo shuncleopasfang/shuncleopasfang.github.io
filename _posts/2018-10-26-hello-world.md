@@ -6,6 +6,8 @@ categories: [Others]
 tags: [Others]
 ---
 
+<span style="color: gray;">Date: Oct 26, 2018</span>
+
 This is the first post I created.
 
 <figure style="margin: 0; padding: 0; text-align: center;">
@@ -25,3 +27,5 @@ int main() {
     return 0;
 }
 ```
+
+<span style="color: gray;">Author: Juntaro Ogata</span>
