@@ -11,6 +11,15 @@ permalink: /about/
 <br>
 I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name `Juntaro Ogata (緒方 順太郎)`, chosen based on a Japanese friend's suggestion, incorporates elements of my Chinese name `Shun Fang (方順)`. I prefer to display my name as `Juntaro Ogata` in most situations.
 
+test 距上一換行
+
+<br>
+test 距上一換行一br
+
+test 距上一換行
+<br>
+test 距上一br
+
 <br>
 Currently I am an undergraduate senior majoring in Information and Computing Science at Anhui University in China and previously studied as an exchange student in the Department of Computer Science and Information Engineering at Feng Chia University in Taiwan. A significant factor in choosing to apply as an exchange student to this university was inspired by Bo Li, the current leader of UIUC Secure Learning Lab, who had a similar exchange student experience at the same university in Taiwan many years ago. I am interested in Frontend Development, Natural Language Processing and Machine Learning, in particular Retrieval-augmented generation and Language agents. I am preparing for admission to graduate schools in Japan for the Fall 2025 and Spring 2026 terms.
 

@@ -5,9 +5,10 @@
 }
 
 .post-content {
-  /* 当内容超出宽度时自动换行 */
-  word-wrap: break-word; /* 或者使用 overflow-wrap: break-word; */
-  word-break: break-all; /* 对于中文长句的换行 */
+  /* 當內容超出寬度時自動換行 */
+  overflow-wrap: break-word; /* 替代 word-wrap: break-word; */
+  word-break: normal; /* 替代 word-break: break-all; */
+  hyphens: auto; /* 在適當的地方添加連字符 */
 }
 
 .post-content p {

@@ -6,22 +6,24 @@ categories: [Others]
 tags: [Others]
 ---
 
-<br>
-
 This is the first post I created.
 
-<br>
-<div style="text-align: center;">
-    <img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 10%;" alt="shuncleopasfang">
-    <p style="color: gray; text-align: center;">shuncleopasfang</p>
-</div>
+test 距上一換行
 
 <br>
+test 距上一換行一br
+
+test 距上一換行
+<br>
+test 距上一br
+
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" class="center" alt="shuncleopasfang" />
+<center><small>shuncleopasfang</small></center>
+
 $$
 e^{i\pi} + 1 = 0
 $$
 
-<br>
 ```c
 #include <stdio.h>
 
@@ -30,8 +32,3 @@ int main() {
     return 0;
 }
 ```
-
-<br>
-<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 10%;" class="center" alt="shuncleopasfang">
-
-<br>
