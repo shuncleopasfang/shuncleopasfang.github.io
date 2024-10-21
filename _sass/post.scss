@@ -19,22 +19,7 @@
 
 .post-content img {
   display: block;
-  margin: 0 auto;
-}
-
-/* 新增：為圖片說明添加樣式 */
-.post-content img + center {
-  display: block;
-  margin-top: -1em; /* 使用負 margin 來進一步減少距離 */
-}
-
-.post-content center small {
-  display: block;
-  font-size: 0.9rem; /* 可選：調整字體大小 */
-  color: #666; /* 可選：調整文字顏色 */
-  line-height: 1.2; /* 調整行高 */
-  margin: 0 auto;
-  word-wrap: break-word; /* 允許長單詞換行 */
+  margin: 10px auto;
 }
 
 .post-info {
