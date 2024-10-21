@@ -71,6 +71,21 @@ li:last-child {
     margin-bottom: 0;
 }
 
+/* 消除嵌套列表的額外邊距 */
+li > ul,
+li > ol {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* 消除相鄰列表之間的額外邊距 */
+ul + ul,
+ol + ol,
+ul + ol,
+ol + ul {
+    margin-top: -21px;
+}
+
 p {
     margin-bottom: 21px;
 }
