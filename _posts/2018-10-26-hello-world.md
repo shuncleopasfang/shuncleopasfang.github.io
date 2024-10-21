@@ -11,6 +11,12 @@ tags: [Others]
 This is the first post I created.
 
 <br>
+<div style="text-align: center;">
+  <img src="/assets/images/hello-world/shuncleopasfang.jpg" alt="shuncleopasfang"/>
+  <small>shuncleopasfang</small>
+</div>
+
+<br>
 $$
 e^{i\pi} + 1 = 0
 $$
