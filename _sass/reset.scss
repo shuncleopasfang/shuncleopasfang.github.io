@@ -42,7 +42,8 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
     font-size: 1.4em;
     line-height: 1.2;
-    margin: 21px 0;
+    margin-top: 0;
+    margin-bottom: 21px;
     text-indent: 0;
 }
 
@@ -73,10 +74,9 @@ li > ol, li > ul {
     margin-bottom: 0;
 }
 
-/* 新增规则 */
-ol:not(:last-child),
-ul:not(:last-child) {
-    margin-bottom: 21px;
+ol:not(:last-child) + *, 
+ul:not(:last-child) + * {
+    margin-top: 21px;
 }
 
 p {
