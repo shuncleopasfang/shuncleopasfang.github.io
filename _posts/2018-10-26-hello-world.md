@@ -17,8 +17,8 @@ test 距上一換行
 <br>
 test 距上一br
 
-<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" class="center" alt="shuncleopasfang" />
-<center><small>shuncleopasfang</small></center>
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" alt="shuncleopasfang" />
+<center><small>shuncleopasfangtttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest</small></center>
 
 $$
 e^{i\pi} + 1 = 0
