@@ -9,9 +9,12 @@ tags: [Others]
 <br>
 
 This is the first post I created.
+
 <br>
-<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 20%;" class="center" alt="shuncleopasfang">
-<center><small style="color: #808080;">shuncleopasfang</small></center>
+<div style="text-align: center;">
+    <img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 10%;" alt="shuncleopasfang">
+    <p style="color: gray; text-align: center;">shuncleopasfang</p>
+</div>
 
 <br>
 $$
@@ -27,5 +30,8 @@ int main() {
     return 0;
 }
 ```
+
+<br>
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 10%;" class="center" alt="shuncleopasfang">
 
 <br>
