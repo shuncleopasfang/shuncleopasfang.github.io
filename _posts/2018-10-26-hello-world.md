@@ -10,7 +10,9 @@ tags: [Others]
 
 This is the first post I created.
 
-<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 30%;" class="center" alt="shuncleopasfang" /><center><small>shuncleopasfang</small></center>
+<br>
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 20%;" class="center" alt="shuncleopasfang" />
+<center><small style="color: #555555;">shuncleopasfang</small></center>
 
 <br>
 $$
