@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: Articles
 permalink: /articles/
 ---
 
