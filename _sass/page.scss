@@ -20,11 +20,7 @@
 /* 新增：為圖片說明添加樣式 */
 .page-content img + center {
   display: block;
-  margin-top: 5px; /* 使用負 margin 來進一步減少距離 */
-}
-
-.page-content center {
-  font-size: 0; /* 消除 inline 元素之間的空白 */
+  margin-top: -1em; /* 使用負 margin 來進一步減少距離 */
 }
 
 .page-content center small {
@@ -32,5 +28,6 @@
   font-size: 0.9rem; /* 可選：調整字體大小 */
   color: #666; /* 可選：調整文字顏色 */
   line-height: 1.2; /* 調整行高 */
+  margin: 0 auto;
   word-wrap: break-word; /* 允許長單詞換行 */
 }

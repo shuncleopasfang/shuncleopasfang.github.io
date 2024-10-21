@@ -21,6 +21,11 @@ test 距上一br
 
 <img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 15%;" alt="shuncleopasfang" /><center><small>shuncleopasfangttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttest post padding 21</small></center>
 
+<figure style="margin: 0; padding: 0;">
+  <img src="/assets/images/hello-world/shuncleopasfang.jpg" alt="shuncleopasfang" style="width: 15%;" />
+  <figcaption style="margin-top: 5px; font-style: italic;">shuncleopasfang</figcaption>
+</figure>
+
 $$
 e^{i\pi} + 1 = 0
 $$
@@ -34,4 +39,4 @@ int main() {
 }
 ```
 
-test padding bottom 10
+delete padding bottom，keep top
