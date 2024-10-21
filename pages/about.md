@@ -8,31 +8,14 @@ permalink: /about/
 * Email: `shuncleopasfang at gmail dot com`
 * [LinkedIn](https://www.linkedin.com/in/juntaro-ogata/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/) / [StackExchange](https://stackexchange.com/users/17533833/shun-cleopas-fang?tab=accounts)
 
-<br>
 I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name `Juntaro Ogata (緒方 順太郎)`, chosen based on a Japanese friend's suggestion, incorporates elements of my Chinese name `Shun Fang (方順)`. I prefer to display my name as `Juntaro Ogata` in most situations.
 
-test 距上一換行
-
-test 距上一換行
-
-<br>
-test 距上一換行一br
-
-test 距上一換行
-<br>
-test 距上一br
-
-<br>
 Currently I am an undergraduate senior majoring in Information and Computing Science at Anhui University in China and previously studied as an exchange student in the Department of Computer Science and Information Engineering at Feng Chia University in Taiwan. A significant factor in choosing to apply as an exchange student to this university was inspired by Bo Li, the current leader of UIUC Secure Learning Lab, who had a similar exchange student experience at the same university in Taiwan many years ago. I am interested in Frontend Development, Natural Language Processing and Machine Learning, in particular Retrieval-augmented generation and Language agents. I am preparing for admission to graduate schools in Japan for the Fall 2025 and Spring 2026 terms.
 
-<br>
 Beyond academics, I have a keen interest in politics, particularly in Japan-Taiwan-China relations, with the aspiration for peace and stability in the Asia-Pacific region under a rules-based international order. My political enlightenment was influenced by Taiwan People's Party Chairman Ko Wen-je, the 2024 Taiwan presidential election candidate, and this is a [photo](https://drive.google.com/file/d/1sNDMhoABacYMNcLuC9hYBRy1a_Ciz7TT/view) of us taken on October 15, 2023, along with his [birthday wishes](https://drive.google.com/file/d/1odAayKZWJjTdYFDNo1ajwatOb7xpYK0k/view) for me. On the eve of the Blue-White Alliance political consultation meeting between the Kuomintang (KMT) and the Taiwan People's Party (TPP) to be held at the Ma Ying-jeou Foundation, we embraced and took another commemorative [photo](https://drive.google.com/file/d/1HKwt3E8LJOGD9yqHhOsr2GPRyXsts1CO/view) together, with my suggestion and hope that the opposition presidential candidates reach a consensus to proceed with the blue-white cooperation. After the failure of the blue-white cooperation despite Terry Gou's efforts as a mediator, I turned to follow the Democratic Progressive Party's (DPP) entire pre-election campaign. On the day of the 16th Presidential and Vice Presidential Election and the 11th Legislative Election of the Republic of China (Taiwan), I [volunteered as a vote counting observer](https://youtu.be/4Jw0p3iJ-S4) for real-time ballot counting at the 1117th polling station of the 5th electoral district of Zhongzheng District, Taipei, and then witnessed on-site the election of Lai Ching-te and Hsiao Bi-khim as the 16th President and Vice President. Apart from these, my other political engagements are private information.
 
-<br>
 Additionally, I actively participate in various activities and societies. I represented both Anhui University and Feng Chia University Table Tennis Teams, competing in tournaments such as the 21st Tamkang Cup National College Table Tennis Invitational Tournament in New Taipei City and the 2023 Tumu Sports Cup Anhui Provincial Table Tennis Invitational Tournament in Hefei. I served as President of the Anhui University Chunhui Club, the largest non-profit volunteer organization on campus, with 249 official members during my tenure from September 2022 to June 2023. Passionate about volunteer work in impoverished areas, I served as a rural volunteer teacher at Fanzhai School in Jieshou, Fuyang, Anhui, China from June to July 2022; the following summer, I returned as the team leader of the rural education aid group from July to August 2023, continuing to support educational efforts in the region. By the way, I completed the Half Marathon in 01:58:09 at the Hefei Marathon 2021 & China National Marathon Championship (Hefei Station) in December 2021; and I have been practicing Chinese Calligraphy since the age of seven, here is my [portfolio](https://drive.google.com/drive/folders/1lL25tWxkg-ZBGNv9J-cvxl3pUnct07SU).
 
-<br>
 I'm keeping a [diary](https://docs.google.com/document/d/1Yn2rebU6vVxZDhbR59W16ho5bSymMQhY1yFdLFMlqW0/pub) in Chinese, recording my daily life. For the future, I seek opportunities to develop my research taste, engineering skills, and political insight to gain more influence and make a positive impact on society.
 
-<br>
 *Last updated: Oct 2024*
