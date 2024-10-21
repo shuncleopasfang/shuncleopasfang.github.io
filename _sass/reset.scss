@@ -40,30 +40,10 @@ blockquote {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-size: 1.4em;
     line-height: 1.2;
-    margin: 0.7em 0; /* 減少整體間距 */
+    margin: 21px 0;
     text-indent: 0;
-}
-
-h1 { 
-    margin: 0.9em 0; 
-    font-size: 1.6em; /* 從 2em 減小到 1.6em */
-}
-h2 { 
-    margin: 0.8em 0; 
-    font-size: 1.4em; /* 從 1.5em 減小到 1.4em */
-}
-h3 { 
-    margin: 0.7em 0; 
-    font-size: 1.2em; /* 從 1.3em 減小到 1.2em */
-}
-h4 { 
-    margin: 0.6em 0; 
-    font-size: 1.1em; /* 保持不變 */
-}
-h5, h6 { 
-    margin: 0.5em 0; 
-    font-size: 1em; /* 保持不變 */
 }
 
 hr {
@@ -78,6 +58,17 @@ img {
 ol, ul {
     margin-left: 35px;
     margin-bottom: 21px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+li {
+    margin-bottom: 0; /* 移除列表項之間的垂直間距 */
+}
+
+/* 確保列表中的最後一個項目不會有底部邊距 */
+li:last-child {
+    margin-bottom: 0;
 }
 
 p {
