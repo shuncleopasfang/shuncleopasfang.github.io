@@ -9,6 +9,9 @@
   overflow-wrap: break-word; /* 替代 word-wrap: break-word; */
   word-break: normal; /* 替代 word-break: break-all; */
   hyphens: auto; /* 在適當的地方添加連字符 */
+
+  padding-top: 21px;
+  padding-bottom: 21px;
 }
 
 .post-content p {
