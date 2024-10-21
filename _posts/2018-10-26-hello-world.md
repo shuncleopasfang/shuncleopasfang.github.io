@@ -11,10 +11,8 @@ tags: [Others]
 This is the first post I created.
 
 <br>
-<div style="text-align: center;">
-  <img src="/assets/images/hello-world/shuncleopasfang.jpg" alt="shuncleopasfang"/>
-  <small>shuncleopasfang</small>
-</div>
+<img src="/assets/images/hello-world/shuncleopasfang.jpg" style="width: 30%;" class="center" alt="shuncleopasfang" />
+<figcaption class="center"><small>shuncleopasfang</small></figcaption>
 
 <br>
 $$
