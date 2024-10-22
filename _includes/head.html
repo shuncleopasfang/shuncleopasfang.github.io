@@ -45,7 +45,7 @@
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   padding: 10px 0;
-  margin: 1em 0;  /* 添加上下邊距 */
+  margin: 1em 0;
 }
 
 .math-container::-webkit-scrollbar {
@@ -61,7 +61,6 @@
   background: #f1f1f1;
 }
 
-/* 處理行內公式的容器 */
 .inline-math-container {
   display: inline-block;
   max-width: 100%;
@@ -73,7 +72,7 @@
 }
 
 .inline-math-container::-webkit-scrollbar {
-  height: 4px;  /* 行內公式使用更小的滾動條 */
+  height: 4px;
 }
 
 .inline-math-container::-webkit-scrollbar-thumb {
@@ -91,33 +90,30 @@ MathJax.Hub.Config({
   },
   CommonHTML: {
     scale: 100,
-    minScaleAdjust: 100,  // 保持原始大小
-    linebreaks: { automatic: false }  // 禁用換行
+    minScaleAdjust: 100,
+    linebreaks: { automatic: false }
   },
   "HTML-CSS": {
-    linebreaks: { automatic: false }  // 禁用換行
+    linebreaks: { automatic: false }
   },
   SVG: {
-    linebreaks: { automatic: false }  // 禁用換行
+    linebreaks: { automatic: false }
   }
 });
 
 MathJax.Hub.Queue(function() {
-  // 處理所有數學公式
+  
   var mathElements = document.querySelectorAll('.MathJax, .MathJax_CHTML, .MathJax_SVG');
   
   mathElements.forEach(function(element) {
     var isDisplayMode = element.parentNode.className.indexOf('display') !== -1;
     
-    // 創建適當的容器
     var container = document.createElement('div');
     container.className = isDisplayMode ? 'math-container' : 'inline-math-container';
     
-    // 插入容器
     element.parentNode.insertBefore(container, element);
     container.appendChild(element);
     
-    // 移除任何可能的縮放
     element.style.fontSize = '100%';
   });
 });

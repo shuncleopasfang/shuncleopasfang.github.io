@@ -37,7 +37,7 @@ Notes from the original paper "RoFormer: Enhanced Transformer with Rotary Positi
 > $$q\cdot e^{im\theta} = (q_r + iq_i)(cos(m\theta) + i\sin(m\theta))$$
 >
 > This expands to:
-> $$(q_r\cos(m\theta) - q_i\sin(m\theta)) + i(q_r\sin(m\theta) + q_i\cos(m\theta))(test+test+test+test+test+test)$$
+> $$(q_r\cos(m\theta) - q_i\sin(m\theta)) + i(q_r\sin(m\theta) + q_i\cos(m\theta))$$
 >
 > Moving on to rotary embedding for query and key vectors, for a vector pair $(q, k)$ at position $m$:
 >
