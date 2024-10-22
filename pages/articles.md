@@ -1,16 +1,16 @@
 ---
 layout: page
-title: 
+title: Articles
 permalink: /articles/
 ---
 
-**Articles**
+<span style="color: gray;">Author: Juntaro Ogata</span>
 
 <style>
     .article-list {
         width: 100%;
         max-width: 800px;
-        margin: 0 auto;
+        margin: 0 auto 21px;  /* 上 左右 下 */
     }
     .article-item {
         display: flex;
@@ -128,5 +128,3 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 </script>
-
-<span style="color: gray;">Author: Juntaro Ogata</span>

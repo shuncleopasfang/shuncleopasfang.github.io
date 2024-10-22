@@ -1,16 +1,11 @@
 ---
 layout: default
-title: 
+title: Categories
 permalink: /categories/
 ---
 
-**Categories**
-
 <article class="container-page">
   <h1 class="page-title">{{ site.data.lang[site.language].categories_title }}</h1>
-      
-  <br>
-      
   <ul class="categories-list">
     {% assign sorted_categories = site.categories | sort %}
     {% for category in sorted_categories %}
@@ -28,5 +23,3 @@ permalink: /categories/
     {% endfor %}
   </ul>
 </article>
-
-<span style="color: gray;">Author: Juntaro Ogata</span>

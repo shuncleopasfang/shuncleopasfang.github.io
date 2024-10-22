@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 
+title: About
 permalink: /about/
 ---
 
-**About**
+<span style="color: gray;">Author: Juntaro Ogata</span>
 
 * [Juntaro Ogata's homepage](https://sites.google.com/view/shuncleopasfang/) 🔒
 * Email: `shuncleopasfang at gmail dot com`
