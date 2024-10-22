@@ -38,42 +38,81 @@
   async>
 </script>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [['$', '$'], ['\\(', '\\)']],  // 支持 $...$ 和 \( ... \) 行內數學
-      displayMath: [['$$', '$$'], ['\\[', '\\]']],  // 支持 $$...$$ 和 \[ ... \] 塊級數學
-      processEscapes: true  // 允許在文本中輸入 \$ 符號
-    }
-  });
-
-  // 添加縮放邏輯
-  MathJax.Hub.Queue(function() {
-    document.querySelectorAll('span[id^="MathJax-Element"]').forEach(function(e) {
-      var parentWidth = e.parentNode.offsetWidth;
-      if (e.parentNode.className.endsWith('isplay')) {  // 判斷是否為單行公式
-        parentWidth = e.parentNode.parentNode.offsetWidth;
-      }
-      if (e.offsetWidth > parentWidth) {
-        e.style.fontSize = (parentWidth * 100 / e.offsetWidth) + '%';  // 縮小字體以適應屏幕
-      }
-    });
-  });
-</script>
-{% endif %}
-
-<!-- CSS for enabling horizontal scroll -->
 <style>
-  .mathjax-container {
-    overflow-x: auto;  /* 啟用橫向滾動 */
-    white-space: nowrap;  /* 防止自動換行 */
-  }
+.math-container {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: 10px 0;
+}
+
+.math-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.math-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.math-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 </style>
 
-<!-- Example of using the container for a formula -->
-<div class="mathjax-container">
-  $$ (q_r\cos(m\theta) - q_i\sin(m\theta)) + i(q_r\sin(m\theta) + q_i\cos(m\theta))(test+test+test+test+test+test) $$
-</div>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  CommonHTML: {
+    scale: 100,
+    minScaleAdjust: 50,
+    linebreaks: { automatic: true }
+  },
+  "HTML-CSS": {
+    linebreaks: { automatic: true }
+  },
+  SVG: {
+    linebreaks: { automatic: true }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+  // 處理所有數學公式
+  var mathElements = document.querySelectorAll('.MathJax, .MathJax_CHTML, .MathJax_SVG');
+  
+  mathElements.forEach(function(element) {
+    var isDisplayMode = element.parentNode.className.indexOf('display') !== -1;
+    
+    // 如果是塊級公式，添加滾動容器
+    if (isDisplayMode) {
+      var container = document.createElement('div');
+      container.className = 'math-container';
+      element.parentNode.insertBefore(container, element);
+      container.appendChild(element);
+    }
+    
+    // 計算縮放比例
+    var parentWidth = isDisplayMode ? 
+      element.parentNode.offsetWidth : 
+      element.parentNode.parentNode.offsetWidth;
+    
+    if (element.offsetWidth > parentWidth) {
+      // 對於行內公式，進行縮放
+      if (!isDisplayMode) {
+        var scale = Math.max(50, (parentWidth * 100 / element.offsetWidth));
+        element.style.fontSize = scale + '%';
+      }
+      // 對於塊級公式，保持原始大小，使用滾動
+    }
+  });
+});
+</script>
+{% endif %}
 
 {% if site.diagram %}
 <script src="{{ site.baseurl }}/assets/scripts/jekyllpaper.js" async></script>
