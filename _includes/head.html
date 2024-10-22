@@ -32,21 +32,8 @@
   {% include analytics.html %}
 {% endif %}
 {% if site.mathjax %}
-<script>
-window.MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    displayMath: [['$$', '$$'], ['\\[', '\\]']],
-    processEscapes: true
-  },
-  chtml: {
-    fontFamily: 'Latin-Modern',
-    matchFontHeight: true
-  }
-};
-</script>
 <script
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
   async>
 </script>
 {% endif %}
