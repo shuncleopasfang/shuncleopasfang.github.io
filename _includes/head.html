@@ -31,6 +31,7 @@
 {% if site.analytics %}
   {% include analytics.html %}
 {% endif %}
+
 {% if site.mathjax %}
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
@@ -45,8 +46,22 @@
       processEscapes: true  // 允許在文本中輸入 \$ 符號
     }
   });
+
+  // 添加縮放邏輯
+  MathJax.Hub.Queue(function() {
+    document.querySelectorAll('span[id^="MathJax-Element"]').forEach(function(e) {
+      var parentWidth = e.parentNode.offsetWidth;
+      if (e.parentNode.className.endsWith('isplay')) {  // 判斷是否為單行公式
+        parentWidth = e.parentNode.parentNode.offsetWidth;
+      }
+      if (e.offsetWidth > parentWidth) {
+        e.style.fontSize = (parentWidth * 100 / e.offsetWidth) + '%';  // 縮小字體以適應屏幕
+      }
+    });
+  });
 </script>
 {% endif %}
+
 {% if site.diagram %}
 <script src="{{ site.baseurl }}/assets/scripts/jekyllpaper.js" async></script>
 <script
