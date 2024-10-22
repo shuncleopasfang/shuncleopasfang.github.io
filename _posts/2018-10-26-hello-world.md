@@ -23,7 +23,7 @@ $$
 e^{i\pi} + 1 = 0
 $$
 
-<figure style="margin: 0; padding: 0; text-align: center;">
+<figure style="margin: 0; padding: 0; text-align: center; margin-bottom: 21px;">
   <img src="/assets/images/hello-world/shuncleopasfang.jpg" alt="shuncleopasfang" style="width: 20%;" />
   <figcaption style="margin-top: 5px; color: gray; font-size: 0.9em; max-width: 64%; margin-left: auto; margin-right: auto; line-height: 1.2em;">shuncleopasfang</figcaption>
 </figure>
