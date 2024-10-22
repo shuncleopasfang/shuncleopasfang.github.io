@@ -14,4 +14,4 @@ Notes I made during undergraduate at the School of Mathematical Sciences.
 
 [notes-ahu-mathematical-statistics.pdf](https://shuncleopasfang.github.io/assets/files/ahu-mathematical-statistics/notes-ahu-mathematical-statistics.pdf)
 
-<span style="color: gray;">Author: Juntaro Ogata</span>
+<span style="color: gray;">Last updated: Jul 2024</span>

@@ -210,4 +210,4 @@ tags: [SQL]
 - 回顾大数据系统的过去和展望大数据系统的未来
     - [云原生数据库设计新思路](https://pingcap.com/zh/blog/new-ideas-for-designing-cloud-native-database)
 
-<span style="color: gray;">Author: Juntaro Ogata</span>
+<span style="color: gray;">Last updated: Jul 2024</span>

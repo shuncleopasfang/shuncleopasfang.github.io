@@ -60,4 +60,4 @@ Notes will be updated soon...
 <a name="written-article"></a>
 # Written Article
 
-<span style="color: gray;">Author: Juntaro Ogata</span>
+<span style="color: gray;">Last updated: Oct 2024</span>

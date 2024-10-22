@@ -20,4 +20,4 @@ Additionally, I actively participate in various activities and societies. I repr
 
 I'm keeping a [diary](https://docs.google.com/document/d/1Yn2rebU6vVxZDhbR59W16ho5bSymMQhY1yFdLFMlqW0/pub) in Chinese, recording my daily life. For the future, I seek opportunities to develop my research taste, engineering skills, and political insight to gain more influence and make a positive impact on society.
 
-*Last updated: Oct 2024*
+<span style="color: gray;">Last updated: Oct 2024</span>
