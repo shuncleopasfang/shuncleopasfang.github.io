@@ -62,6 +62,19 @@
 </script>
 {% endif %}
 
+<!-- CSS for enabling horizontal scroll -->
+<style>
+  .mathjax-container {
+    overflow-x: auto;  /* 啟用橫向滾動 */
+    white-space: nowrap;  /* 防止自動換行 */
+  }
+</style>
+
+<!-- Example of using the container for a formula -->
+<div class="mathjax-container">
+  $$ (q_r\cos(m\theta) - q_i\sin(m\theta)) + i(q_r\sin(m\theta) + q_i\cos(m\theta))(test+test+test+test+test+test) $$
+</div>
+
 {% if site.diagram %}
 <script src="{{ site.baseurl }}/assets/scripts/jekyllpaper.js" async></script>
 <script

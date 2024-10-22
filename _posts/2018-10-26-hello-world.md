@@ -15,7 +15,6 @@ This is the first post I created.
 
 int main() {
     printf("Hello, World!\n");
-    printf("test,test,test,test,test,test,test,test,test,test,test,test,test,test,test,test,test,test,test,test!\n");
     return 0;
 }
 ```
