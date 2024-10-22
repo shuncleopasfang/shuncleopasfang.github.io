@@ -18,6 +18,39 @@ int main() {
     return 0;
 }
 ```
+test
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+
+test
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+<br>
+test
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
+<br>
 
 test
 
@@ -32,16 +65,6 @@ int main() {
 
 <br>
 test
-
-<div style="margin-bottom: 21px;">
-    <pre><code>
-    #include <stdio.h>
-    int main() {
-        printf("Hello, World!\n");
-        return 0;
-    }
-    </code></pre>
-</div>
 
 Notes from the original paper "RoFormer: Enhanced Transformer with Rotary Position Embedding" (Su et al., 2021) and its mathematical derivation.
 
