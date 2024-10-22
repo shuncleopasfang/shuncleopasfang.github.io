@@ -19,10 +19,8 @@ int main() {
 }
 ```
 
-> Notes from the original paper "RoFormer: Enhanced Transformer with Rotary Position Embedding" (Su et al., 2021) and its mathematical derivation
-> 
-> ---
-> 
+Notes from the original paper "RoFormer: Enhanced Transformer with Rotary Position Embedding" (Su et al., 2021) and its mathematical derivation.
+
 > Rotary Position Embedding (RoPE) Mathematical Derivation begins with the basic rotary matrix definition. For a 2D rotation matrix:
 >
 > $$R_\theta = \begin{pmatrix} 
@@ -87,7 +85,7 @@ int main() {
 >
 > The implementation combines rotary matrices with frequency-based position encoding, providing an efficient way to encode positional information in transformer architectures.
 
-<figure style="margin: 0; padding: 0; text-align: center; margin-bottom: 21px;">
+<figure style="margin: 0; padding: 0; text-align: center; margin-top: 21px; margin-bottom: 21px;">
   <img src="/assets/images/hello-world/shuncleopasfang.jpg" alt="shuncleopasfang" style="width: 20%;" />
   <figcaption style="margin-top: 0; color: gray; font-size: 0.9em; max-width: 64%; margin-left: auto; margin-right: auto; line-height: 1.2em;">shuncleopasfang</figcaption>
 </figure>
