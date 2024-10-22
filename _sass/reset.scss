@@ -44,10 +44,7 @@ blockquote {
 /* 代码块样式 */
 pre {
     overflow-x: auto;  /* 内容过长时可以横向滚动 */
-}
-
-pre.code-block {
-    margin-bottom: 21px;
+    margin-bottom: 21px;  /* 与下方段落的间距 */
 }
 
 h1, h2, h3, h4, h5, h6 {
