@@ -10,17 +10,16 @@ tags: [SQL]
 
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Preview](#preview)
-  - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql)
-  - [Common Query Optimizers](#common-query-optimizers)
-  - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization)
-  - [Emerging Trends in SQL](#emerging-trends-in-sql)
+  - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-1st)
+  - [Common Query Optimizers](#common-query-optimizers-1st)
+  - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-1st)
+  - [Emerging Trends in SQL](#emerging-trends-in-sql-1st)
 - [Learning](#learning)
-  - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-1)
-  - [Common Query Optimizers](#common-query-optimizers-1)
-  - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-1)
-  - [Emerging Trends in SQL](#emerging-trends-in-sql-1)
+  - [Big Data Ecosystem and SQL](#big-data-ecosystem-and-sql-2nd)
+  - [Common Query Optimizers](#common-query-optimizers-2nd)
+  - [Community Open-Source Projects in Query Optimization](#community-open-source-projects-in-query-optimization-2nd)
+  - [Emerging Trends in SQL](#emerging-trends-in-sql-2nd)
 - [References](#references)
 
 <a name="preview"></a>
