@@ -33,10 +33,18 @@ nav a.active {
     text-decoration: underline;
 }
 
+/* 引用块样式 */
 blockquote {
     margin: 15px;
     padding-left: 15px;
     border-left: 2px solid #888;
+    margin-bottom: 21px;  /* 添加这行 */
+}
+
+/* 代码块样式 */
+pre {
+    overflow-x: auto;  /* 内容过长时可以横向滚动 */
+    margin-bottom: 21px;  /* 与下方段落的间距 */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 21px;
     text-indent: 0;
+    text-align: left; /* 將標題靠左對齊 */
 }
 
 hr {
