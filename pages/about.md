@@ -8,7 +8,7 @@ permalink: /about/
 
 * [Juntaro Ogata's homepage](https://sites.google.com/view/shuncleopasfang/) 🔒
 * Email: `shuncleopasfang at gmail dot com`
-* [LinkedIn](https://www.linkedin.com/in/juntaro-ogata/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/) / [StackExchange](https://stackexchange.com/users/17533833/shun-cleopas-fang?tab=accounts)
+* [LinkedIn](https://www.linkedin.com/in/juntaro-ogata/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/) / [StackExchange](https://stackexchange.com/users/17533833/juntaro-ogata?tab=accounts)
 
 I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name `Juntaro Ogata (緒方 順太郎)`, chosen based on a Japanese friend's suggestion, incorporates elements of my Chinese name `Shun Fang (方順)`. I prefer to display my name as `Juntaro Ogata` in most situations.
 
