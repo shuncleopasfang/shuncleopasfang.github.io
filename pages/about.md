@@ -6,7 +6,7 @@ permalink: /about/
 
 <span style="color: gray;">Author: Juntaro Ogata</span>
 
-* [Juntaro Ogata's homepage](https://sites.google.com/view/shuncleopasfang/) 🔒
+* [Juntaro Ogata's homepage](https://sites.google.com/view/shuncleopasfang/)
 * Email: `shuncleopasfang at gmail dot com`
 * [Google Scholar](https://scholar.google.com/citations?user=) / [LinkedIn](https://www.linkedin.com/in/juntaro-ogata/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/)
 
