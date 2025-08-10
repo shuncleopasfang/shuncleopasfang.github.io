@@ -12,7 +12,7 @@ permalink: /about/
 
 I can be referred to as `shuncleopasfang`, `Shun Fang`, `方順`, `Juntaro Ogata`, and `緒方 順太郎`. The Japanese name `Juntaro Ogata (緒方 順太郎)`, chosen based on a Japanese friend's suggestion, incorporates elements of my Chinese name `Shun Fang (方順)`. I prefer to display my name as `Juntaro Ogata` in most situations.
 
-I am interested in multi-modal foundation models.
+I am interested in multi-modal foundation models. Here is my [Curriculum Vitae]().
 
 I focus on politics, particularly in Japan-Taiwan-China relations. My political enlightenment was influenced by Taiwan People's Party Chairman Ko Wen-je, the 2024 Taiwan presidential election candidate, and this is a [photo](https://drive.google.com/file/d/1sNDMhoABacYMNcLuC9hYBRy1a_Ciz7TT/view) of us taken on October 15, 2023, along with his [birthday wishes](https://drive.google.com/file/d/1arKZkCC08v2FqETwg5MMa5_P80GuMrqF/view) for me. On the eve of the Blue-White Alliance political consultation meeting between the Kuomintang and the Taiwan People's Party, we embraced and took another commemorative [photo](https://drive.google.com/file/d/1HKwt3E8LJOGD9yqHhOsr2GPRyXsts1CO/view) together, with my suggestion and hope that the opposition presidential candidates reach a consensus to proceed with cooperation.
 
