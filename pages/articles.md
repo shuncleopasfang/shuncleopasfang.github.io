@@ -61,26 +61,6 @@ permalink: /articles/
       <img src="/assets/images/articles/ko_wen-je_&_juntaro_ogata.jpeg" alt="ko_wen-je_&_juntaro_ogata" class="article-image">
     </div>
   </div>
-  
-  <div class="article-item">
-    <div class="article-info">
-      <span class="article-date">Aug 10, 2023</span><br>
-      <a href="https://shuncleopasfang.blogspot.com/2023/09/aid-education-record-2.html" class="article-title">第二年支教始末记</a>
-    </div>
-    <div class="article-image-container">
-      <img src="/assets/images/articles/aid_education_2.jpg" alt="aid_education_2" class="article-image">
-    </div>
-  </div>
-
-  <div class="article-item">
-    <div class="article-info">
-      <span class="article-date">Apr 22, 2023</span><br>
-      <a href="https://shuncleopasfang.blogspot.com/2023/05/huangshan-tour.html" class="article-title">黄山游日志</a>
-    </div>
-    <div class="article-image-container">
-      <img src="/assets/images/articles/huangshan_tour.jpg" alt="huangshan_tour" class="article-image">
-    </div>
-  </div>
 
   <div class="article-item">
     <div class="article-info">
