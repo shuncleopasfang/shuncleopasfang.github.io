@@ -75,7 +75,7 @@ permalink: /articles/
   <div class="article-item">
     <div class="article-info">
       <span class="article-date">Jan 2, 2022</span><br>
-      <a href="https://shuncleopasfang.blogspot.com/2022/01/50km-Trailwalker-of-Hefei-2022.html" class="article-title">2022合肥50km百里毅行记闻</a>
+      <a href="https://shuncleopasfang.blogspot.com/2025/11/hefei-50km-trailwalker-2022.html" class="article-title">2022合肥50km百里毅行记闻</a>
     </div>
     <div class="article-image-container">
       <img src="/assets/images/articles/50km_trailwalker.jpg" alt="50km_trailwalker" class="article-image">
