@@ -54,6 +54,17 @@ permalink: /articles/
 <div class="article-list">
   <div class="article-item">
     <div class="article-info">
+      <span class="article-date">Dec 30, 2025</span><br>
+      <a href="https://shuncleopasfang.blogspot.com/2025/12/baptism-testimony.html" class="article-title">方順受洗見證</a>
+    </div>
+    <div class="article-image-container">
+      <img src="/assets/images/articles/baptism-testimony.jpg" alt="baptism-testimony" class="article-image">
+    </div>
+  </div>
+
+<div class="article-list">
+  <div class="article-item">
+    <div class="article-info">
       <span class="article-date">Jan 19, 2024</span><br>
       <a href="https://shuncleopasfang.blogspot.com/2023/11/taiwan-travelogue.html" class="article-title">從天黑走到天亮——方順的台灣日記</a>
     </div>
