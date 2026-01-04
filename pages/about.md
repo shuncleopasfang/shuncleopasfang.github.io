@@ -4,9 +4,14 @@ title: About
 permalink: /about/
 ---
 
-<span style="color: gray;">Author: Cleopas Fang</span>
-<span style="color: gray; font-size: 0.85rem;">
-  Christian; <a href="https://drive.google.com/file/d/13iR6m29GxhgqVvj4ugddsG-qzsni5NM7/view">baptized</a> in 2025
+<span style="color: gray;">Author: Cleopas Fang</span><br>
+<span style="color: gray; font-size: 0.8rem; font-style: italic;">
+  Christian; 
+  <a href="https://drive.google.com/file/d/13iR6m29GxhgqVvj4ugddsG-qzsni5NM7/view"
+     style="color: inherit; text-decoration: none;">
+     baptized
+  </a>
+  in 2025
 </span>
 
 * [Cleopas Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
