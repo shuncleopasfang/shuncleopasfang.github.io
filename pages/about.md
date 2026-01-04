@@ -7,10 +7,7 @@ permalink: /about/
 <span style="color: gray;">Cleopas Fang | 方順</span><br>
 <span style="color: gray; font-size: 0.8rem; font-style: italic;">
   <a href="https://drive.google.com/file/d/13iR6m29GxhgqVvj4ugddsG-qzsni5NM7/view"
-     style="color: inherit; text-decoration: none;">
-     Christian
-  </a>; 
-  Chinese
+     style="color: inherit; text-decoration: none;">Christian</a>; Chinese
 </span>
 
 * [Cleopas Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
