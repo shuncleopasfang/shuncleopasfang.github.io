@@ -12,7 +12,7 @@ permalink: /about/
 
 * [Cleopas Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
 * Email: `shuncleopasfang at gmail dot com`
-* [Google Scholar](https://scholar.google.com/citations?user=) / [LinkedIn](https://www.linkedin.com/in/cleopas-fang/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/)
+* [Google Scholar](https://scholar.google.com/citations?user=) / [LinkedIn](https://www.linkedin.com/in/shuncleopasfang/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/)
 
 I can be referred to as `Shun Fang`, `Cleopas Fang`, and `方順`. The name `Cleopas` was adopted in 2020, rooted in the disciple described in Luke 24:13–35, who encountered the resurrected Jesus on the road to Emmaus. I prefer to display my name as `Cleopas Fang` in most situations.
 
