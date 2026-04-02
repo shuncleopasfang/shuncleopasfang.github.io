@@ -2,8 +2,8 @@
 layout: post
 title: "Hello World"
 date: 2018-10-26
-categories: [Others]
-tags: [Others]
+categories: [Uncategorized]
+tags: [hello-world]
 ---
 
 <span style="color: gray;">Date: Oct 26, 2018</span>
