@@ -1,3 +1,3 @@
-# Hi, I'm Cleopas Fang
+# Cleopas Fang's blog
 
-This is the source code of my personal blog. You may visit it at [Cleopas Fang's blog](https://shuncleopasfang.github.io).
+This is the source code of my personal [blog](https://shuncleopasfang.github.io).
