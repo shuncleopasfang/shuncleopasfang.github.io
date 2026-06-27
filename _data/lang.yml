@@ -14,6 +14,7 @@ en:
   post_next: 'Next: '
   post_author: 'Author: '
   categories_title: 'Categories'
+  tags_title: 'Tags'
 
 de:
   menu_index: 'Index'
@@ -31,6 +32,7 @@ de:
   post_next: 'Nächster: '
   post_author: 'Autor: '
   categories_title: 'Kategorien'
+  tags_title: 'Etiketten'
 
 es:
   menu_index: 'Índice'
@@ -48,6 +50,7 @@ es:
   post_next: 'Siguiente: '
   post_author: 'El autor: '
   categories_title: 'Categorías'
+  tags_title: 'Etiquetas'
   
 it:
   menu_index: 'Indice'
@@ -65,6 +68,7 @@ it:
   post_next: 'Successivo: '
   post_author: 'Autore: '
   categories_title: 'Categorie'
+  tags_title: 'Etichette'
 
 fr:
   menu_index: 'Indice'
@@ -82,6 +86,7 @@ fr:
   post_next: 'Prochain: '
   post_author: 'Auteur: '
   categories_title: 'Catégories'
+  tags_title: 'Étiquettes'
 
 ja:
   menu_index: 'ホーム'
@@ -99,6 +104,7 @@ ja:
   post_next: '次の記事：'
   post_author: '作者: '
   categories_title: '分類'
+  tags_title: 'タグ'
 
 pt:
   menu_index: 'Índice'
@@ -116,6 +122,7 @@ pt:
   post_next: 'Próximo: '
   post_author: 'Autor: '
   categories_title: 'Categorias'
+  tags_title: 'Etiquetas'
 
 zh-cn:
   menu_index: '首页'
@@ -133,6 +140,7 @@ zh-cn:
   post_next: '后一篇：'
   post_author: '作者：'
   categories_title: '分类'
+  tags_title: '标签'
 
 zh-tw:
   menu_index: '首頁'
@@ -150,6 +158,7 @@ zh-tw:
   post_next: '後一篇：'
   post_author: '作者：'
   categories_title: '分類'
+  tags_title: '標籤'
 
 tr:
   menu_index: 'Dizin'
@@ -167,6 +176,7 @@ tr:
   post_next: 'Sonraki: '
   post_author: 'Yazar: '
   categories_title: 'Kategoriler'
+  tags_title: 'Etiketler'
 
 ko:
   menu_index: "색인"
@@ -183,3 +193,4 @@ ko:
   post_previous: "이전: "
   post_next: "다음: "
   category_title: "카테고리"
+  tags_title: "태그"

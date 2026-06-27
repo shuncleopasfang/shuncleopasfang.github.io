@@ -9,7 +9,9 @@ permalink: /categories/
   <ul class="categories-list">
     {% assign sorted_categories = site.categories | sort %}
     {% for category in sorted_categories %}
-    <li id="{{ category | first }}"><strong>{{ category | first }}</strong>
+    {% assign category_name = category | first %}
+    {% assign category_id = category_name | replace: ' ', '_' %}
+    <li id="{{ category_id | escape }}"><strong>{{ category_name }}</strong>
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
     {% if post.categories contains category[0] %}

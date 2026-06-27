@@ -19,8 +19,9 @@
   margin: 10px auto;
 }
 
-/* 添加分类列表的样式 */
-.categories-list {
+/* 添加分类和标签列表的样式 */
+.categories-list,
+.tags-list {
     margin-top: 0;            /* 上边距为0，避免与标题的margin重叠 */
     margin-bottom: 21px;       /* 与下方内容的间距为21px */
 }
