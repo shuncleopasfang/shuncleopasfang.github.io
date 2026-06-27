@@ -3,7 +3,7 @@ layout: post
 title: "Hello World"
 date: 2018-10-26
 categories: [Uncategorized]
-tags: [hello-world]
+tags: [Untagged]
 ---
 
 <span style="color: gray;">Date: Oct 26, 2018</span>
