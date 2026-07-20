@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-<span style="color: gray;">Cleopas Fang | 方順</span><br>
+<span style="color: gray;">Shun (Cleopas) Fang | 方順</span><br>
 <span style="color: gray; font-size: 0.8rem; font-style: italic;">
   <a href="https://drive.google.com/file/d/13iR6m29GxhgqVvj4ugddsG-qzsni5NM7/view"
      style="color: inherit; text-decoration: none;">Christian</a>, Chinese
 </span>
 
-* [Cleopas Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
+* [Shun (Cleopas) Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
 * Email: `shuncleopasfang at gmail dot com`
 * [Google Scholar](https://scholar.google.com/citations?user=) / [LinkedIn](https://www.linkedin.com/in/shuncleopasfang/) / [GitHub](https://github.com/shuncleopasfang) / [Twitter](https://twitter.com/shuncleopasfang/)
 
