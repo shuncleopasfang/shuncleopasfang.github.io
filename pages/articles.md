@@ -54,6 +54,16 @@ permalink: /articles/
 <div class="article-list">
   <div class="article-item">
     <div class="article-info">
+      <span class="article-date">Sep 2, 2026</span><br>
+      <a href="https://shuncleopasfang.blogspot.com/2026/09/mount-fuji-climbing.html" class="article-title">富士山弾丸登山</a>
+    </div>
+    <div class="article-image-container">
+      <img src="/assets/images/articles/mount-fuji-climbing.jpg" alt="mount-fuji-climbing" class="article-image">
+    </div>
+  </div>
+
+  <div class="article-item">
+    <div class="article-info">
       <span class="article-date">Dec 30, 2025</span><br>
       <a href="https://shuncleopasfang.blogspot.com/2025/12/baptism-testimony.html" class="article-title">方順受洗見證</a>
     </div>
