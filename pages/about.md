@@ -6,8 +6,10 @@ permalink: /about/
 
 <span style="color: gray;">Cleopas Fang | 方順</span><br>
 <span style="color: gray; font-size: 0.8rem; font-style: italic;">
-  <a href="https://drive.google.com/file/d/13iR6m29GxhgqVvj4ugddsG-qzsni5NM7/view"
-     style="color: inherit; text-decoration: none;">Christian</a>, Han Chinese
+  <a href="https://drive.google.com/file/d/1zDzgIMvhBNDeI57UupTsh7UkNk3d5QOQ/view"
+     style="color: inherit; text-decoration: none;">Christian</a>,
+  <a href="https://drive.google.com/file/d/17fYlJ19YVUqzrhLxy0x0I7Bw-iAwaV92/view"
+     style="color: inherit; text-decoration: none;">Chinese</a>
 </span>
 
 * [Shun Cleopas Fang's homepage](https://sites.google.com/view/shuncleopasfang/)
